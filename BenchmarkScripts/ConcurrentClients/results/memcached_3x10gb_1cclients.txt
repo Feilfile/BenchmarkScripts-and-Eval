@@ -1,0 +1,653 @@
+Results for Memcached on port 11212:
+Usage: memtier_benchmark [options]
+A memcache/redis NoSQL traffic generator and performance benchmarking tool.
+
+Connection and General Options:
+  -h, --host=ADDR                Server address (default: localhost)
+  -s, --server=ADDR              Same as --host
+  -p, --port=PORT                Server port (default: 6379)
+  -S, --unix-socket=SOCKET       UNIX Domain socket name (default: none)
+  -4, --ipv4                     Force IPv4 address resolution.
+  -6  --ipv6                     Force IPv6 address resolution.
+  -P, --protocol=PROTOCOL        Protocol to use (default: redis).
+                                 other supported protocols are resp2, resp3, memcache_text and memcache_binary.
+                                 when using one of resp2 or resp3 the redis protocol version will be set via HELLO command.
+  -a, --authenticate=CREDENTIALS Authenticate using specified credentials.
+                                 A simple password is used for memcache_text
+                                 and Redis <= 5.x. <USER>:<PASSWORD> can be
+                                 specified for memcache_binary or Redis 6.x
+                                 or newer with ACL user support.
+      --tls                      Enable SSL/TLS transport security
+      --cert=FILE                Use specified client certificate for TLS
+      --key=FILE                 Use specified private key for TLS
+      --cacert=FILE              Use specified CA certs bundle for TLS
+      --tls-skip-verify          Skip verification of server certificate
+      --tls-protocols            Specify the tls protocol version to use, comma delemited. Use a combination of 'TLSv1', 'TLSv1.1', 'TLSv1.2' and 'TLSv1.3'.
+      --sni=STRING               Add an SNI header
+  -x, --run-count=NUMBER         Number of full-test iterations to perform
+  -D, --debug                    Print debug output
+      --client-stats=FILE        Produce per-client stats file
+  -o, --out-file=FILE            Name of output file (default: stdout)
+      --json-out-file=FILE       Name of JSON output file, if not set, will not print to json
+      --hdr-file-prefix=FILE     Prefix of HDR Latency Histogram output files, if not set, will not save latency histogram files
+      --show-config              Print detailed configuration before running
+      --hide-histogram           Don't print detailed latency histogram
+      --print-percentiles        Specify which percentiles info to print on the results table (by default prints percentiles: 50,99,99.9)
+      --cluster-mode             Run client in cluster mode
+  -h, --help                     Display this help
+  -v, --version                  Display version information
+
+Test Options:
+  -n, --requests=NUMBER          Number of total requests per client (default: 10000)
+                                 use 'allkeys' to run on the entire key-range
+      --rate-limiting=NUMBER     The max number of requests to make per second from an individual connection (default is unlimited rate).
+                                 If you use --rate-limiting and a very large rate is entered which cannot be met, memtier will do as many requests as possible per second.
+  -c, --clients=NUMBER           Number of clients per thread (default: 50)
+  -t, --threads=NUMBER           Number of threads (default: 4)
+      --test-time=SECS           Number of seconds to run the test
+      --ratio=RATIO              Set:Get ratio (default: 1:10)
+      --pipeline=NUMBER          Number of concurrent pipelined requests (default: 1)
+      --reconnect-interval=NUM   Number of requests after which re-connection is performed
+      --multi-key-get=NUM        Enable multi-key get commands, up to NUM keys (default: 0)
+      --select-db=DB             DB number to select, when testing a redis server
+      --distinct-client-seed     Use a different random seed for each client
+      --randomize                random seed based on timestamp (default is constant value)
+
+Arbitrary command:
+      --command=COMMAND          Specify a command to send in quotes.
+                                 Each command that you specify is run with its ratio and key-pattern options.
+                                 For example: --command="set __key__ 5" --command-ratio=2 --command-key-pattern=G
+                                 To use a generated key or object, enter:
+                                   __key__: Use key generated from Key Options.
+                                   __data__: Use data generated from Object Options.
+      --command-ratio            The number of times the command is sent in sequence.(default: 1)
+      --command-key-pattern      Key pattern for the command (default: R):
+                                 G for Gaussian distribution.
+                                 R for uniform Random.
+                                 S for Sequential.
+                                 P for Parallel (Sequential were each client has a subset of the key-range).
+
+Object Options:
+  -d  --data-size=SIZE           Object data size in bytes (default: 32)
+      --data-offset=OFFSET       Actual size of value will be data-size + data-offset
+                                 Will use SETRANGE / GETRANGE (default: 0)
+  -R  --random-data              Indicate that data should be randomized
+      --data-size-range=RANGE    Use random-sized items in the specified range (min-max)
+      --data-size-list=LIST      Use sizes from weight list (size1:weight1,..sizeN:weightN)
+      --data-size-pattern=R|S    Use together with data-size-range
+                                 when set to R, a random size from the defined data sizes will be used,
+                                 when set to S, the defined data sizes will be evenly distributed across
+                                 the key range, see --key-maximum (default R)
+      --expiry-range=RANGE       Use random expiry values from the specified range
+
+Imported Data Options:
+      --data-import=FILE         Read object data from file
+      --data-verify              Enable data verification when test is complete
+      --verify-only              Only perform --data-verify, without any other test
+      --generate-keys            Generate keys for imported objects
+      --no-expiry                Ignore expiry information in imported data
+
+Key Options:
+      --key-prefix=PREFIX        Prefix for keys (default: "memtier-")
+      --key-minimum=NUMBER       Key ID minimum value (default: 0)
+      --key-maximum=NUMBER       Key ID maximum value (default: 10000000)
+      --key-pattern=PATTERN      Set:Get pattern (default: R:R)
+                                 G for Gaussian distribution.
+                                 R for uniform Random.
+                                 S for Sequential.
+                                 P for Parallel (Sequential were each client has a subset of the key-range).
+      --key-stddev               The standard deviation used in the Gaussian distribution
+                                 (default is key range / 6)
+      --key-median               The median point used in the Gaussian distribution
+                                 (default is the center of the key range)
+
+WAIT Options:
+      --wait-ratio=RATIO         Set:Wait ratio (default is no WAIT commands - 1:0)
+      --num-slaves=RANGE         WAIT for a random number of slaves in the specified range
+      --wait-timeout=RANGE       WAIT for a random number of milliseconds in the specified range (normal 
+                                 distribution with the center in the middle of the range)
+
+
+Results for Memcached on port 11213:
+Usage: memtier_benchmark [options]
+A memcache/redis NoSQL traffic generator and performance benchmarking tool.
+
+Connection and General Options:
+  -h, --host=ADDR                Server address (default: localhost)
+  -s, --server=ADDR              Same as --host
+  -p, --port=PORT                Server port (default: 6379)
+  -S, --unix-socket=SOCKET       UNIX Domain socket name (default: none)
+  -4, --ipv4                     Force IPv4 address resolution.
+  -6  --ipv6                     Force IPv6 address resolution.
+  -P, --protocol=PROTOCOL        Protocol to use (default: redis).
+                                 other supported protocols are resp2, resp3, memcache_text and memcache_binary.
+                                 when using one of resp2 or resp3 the redis protocol version will be set via HELLO command.
+  -a, --authenticate=CREDENTIALS Authenticate using specified credentials.
+                                 A simple password is used for memcache_text
+                                 and Redis <= 5.x. <USER>:<PASSWORD> can be
+                                 specified for memcache_binary or Redis 6.x
+                                 or newer with ACL user support.
+      --tls                      Enable SSL/TLS transport security
+      --cert=FILE                Use specified client certificate for TLS
+      --key=FILE                 Use specified private key for TLS
+      --cacert=FILE              Use specified CA certs bundle for TLS
+      --tls-skip-verify          Skip verification of server certificate
+      --tls-protocols            Specify the tls protocol version to use, comma delemited. Use a combination of 'TLSv1', 'TLSv1.1', 'TLSv1.2' and 'TLSv1.3'.
+      --sni=STRING               Add an SNI header
+  -x, --run-count=NUMBER         Number of full-test iterations to perform
+  -D, --debug                    Print debug output
+      --client-stats=FILE        Produce per-client stats file
+  -o, --out-file=FILE            Name of output file (default: stdout)
+      --json-out-file=FILE       Name of JSON output file, if not set, will not print to json
+      --hdr-file-prefix=FILE     Prefix of HDR Latency Histogram output files, if not set, will not save latency histogram files
+      --show-config              Print detailed configuration before running
+      --hide-histogram           Don't print detailed latency histogram
+      --print-percentiles        Specify which percentiles info to print on the results table (by default prints percentiles: 50,99,99.9)
+      --cluster-mode             Run client in cluster mode
+  -h, --help                     Display this help
+  -v, --version                  Display version information
+
+Test Options:
+  -n, --requests=NUMBER          Number of total requests per client (default: 10000)
+                                 use 'allkeys' to run on the entire key-range
+      --rate-limiting=NUMBER     The max number of requests to make per second from an individual connection (default is unlimited rate).
+                                 If you use --rate-limiting and a very large rate is entered which cannot be met, memtier will do as many requests as possible per second.
+  -c, --clients=NUMBER           Number of clients per thread (default: 50)
+  -t, --threads=NUMBER           Number of threads (default: 4)
+      --test-time=SECS           Number of seconds to run the test
+      --ratio=RATIO              Set:Get ratio (default: 1:10)
+      --pipeline=NUMBER          Number of concurrent pipelined requests (default: 1)
+      --reconnect-interval=NUM   Number of requests after which re-connection is performed
+      --multi-key-get=NUM        Enable multi-key get commands, up to NUM keys (default: 0)
+      --select-db=DB             DB number to select, when testing a redis server
+      --distinct-client-seed     Use a different random seed for each client
+      --randomize                random seed based on timestamp (default is constant value)
+
+Arbitrary command:
+      --command=COMMAND          Specify a command to send in quotes.
+                                 Each command that you specify is run with its ratio and key-pattern options.
+                                 For example: --command="set __key__ 5" --command-ratio=2 --command-key-pattern=G
+                                 To use a generated key or object, enter:
+                                   __key__: Use key generated from Key Options.
+                                   __data__: Use data generated from Object Options.
+      --command-ratio            The number of times the command is sent in sequence.(default: 1)
+      --command-key-pattern      Key pattern for the command (default: R):
+                                 G for Gaussian distribution.
+                                 R for uniform Random.
+                                 S for Sequential.
+                                 P for Parallel (Sequential were each client has a subset of the key-range).
+
+Object Options:
+  -d  --data-size=SIZE           Object data size in bytes (default: 32)
+      --data-offset=OFFSET       Actual size of value will be data-size + data-offset
+                                 Will use SETRANGE / GETRANGE (default: 0)
+  -R  --random-data              Indicate that data should be randomized
+      --data-size-range=RANGE    Use random-sized items in the specified range (min-max)
+      --data-size-list=LIST      Use sizes from weight list (size1:weight1,..sizeN:weightN)
+      --data-size-pattern=R|S    Use together with data-size-range
+                                 when set to R, a random size from the defined data sizes will be used,
+                                 when set to S, the defined data sizes will be evenly distributed across
+                                 the key range, see --key-maximum (default R)
+      --expiry-range=RANGE       Use random expiry values from the specified range
+
+Imported Data Options:
+      --data-import=FILE         Read object data from file
+      --data-verify              Enable data verification when test is complete
+      --verify-only              Only perform --data-verify, without any other test
+      --generate-keys            Generate keys for imported objects
+      --no-expiry                Ignore expiry information in imported data
+
+Key Options:
+      --key-prefix=PREFIX        Prefix for keys (default: "memtier-")
+      --key-minimum=NUMBER       Key ID minimum value (default: 0)
+      --key-maximum=NUMBER       Key ID maximum value (default: 10000000)
+      --key-pattern=PATTERN      Set:Get pattern (default: R:R)
+                                 G for Gaussian distribution.
+                                 R for uniform Random.
+                                 S for Sequential.
+                                 P for Parallel (Sequential were each client has a subset of the key-range).
+      --key-stddev               The standard deviation used in the Gaussian distribution
+                                 (default is key range / 6)
+      --key-median               The median point used in the Gaussian distribution
+                                 (default is the center of the key range)
+
+WAIT Options:
+      --wait-ratio=RATIO         Set:Wait ratio (default is no WAIT commands - 1:0)
+      --num-slaves=RANGE         WAIT for a random number of slaves in the specified range
+      --wait-timeout=RANGE       WAIT for a random number of milliseconds in the specified range (normal 
+                                 distribution with the center in the middle of the range)
+
+
+Results for Memcached on port 11211:
+4         Threads
+1         Connections per thread
+60        Seconds
+
+
+ALL STATS
+============================================================================================================================
+Type         Ops/sec     Hits/sec   Misses/sec    Avg. Latency     p50 Latency     p99 Latency   p99.9 Latency       KB/sec 
+----------------------------------------------------------------------------------------------------------------------------
+Sets         5986.64          ---          ---         0.06107         0.06300         0.08700         0.16700       408.59 
+Gets        59866.06       270.07     59595.99         0.05932         0.06300         0.08700         0.15900      1529.86 
+Waits           0.00          ---          ---             ---             ---             ---             ---          --- 
+Totals      65852.70       270.07     59595.99         0.05948         0.06300         0.08700         0.15900      1938.44 
+
+
+Request Latency Distribution
+Type     <= msec         Percent
+------------------------------------------------------------------------
+SET       0.031        0.000
+SET       0.055        5.000
+SET       0.055       10.000
+SET       0.055       15.000
+SET       0.055       20.000
+SET       0.063       25.000
+SET       0.063       30.000
+SET       0.063       35.000
+SET       0.063       40.000
+SET       0.063       45.000
+SET       0.063       50.000
+SET       0.063       52.500
+SET       0.063       55.000
+SET       0.063       57.500
+SET       0.063       60.000
+SET       0.063       62.500
+SET       0.063       65.000
+SET       0.063       67.500
+SET       0.063       70.000
+SET       0.063       72.500
+SET       0.063       75.000
+SET       0.063       76.250
+SET       0.071       77.500
+SET       0.071       78.750
+SET       0.071       80.000
+SET       0.071       81.250
+SET       0.071       82.500
+SET       0.071       83.750
+SET       0.071       85.000
+SET       0.071       86.250
+SET       0.071       87.500
+SET       0.071       88.125
+SET       0.071       88.750
+SET       0.071       89.375
+SET       0.079       90.000
+SET       0.079       90.625
+SET       0.079       91.250
+SET       0.079       91.875
+SET       0.079       92.500
+SET       0.079       93.125
+SET       0.079       93.750
+SET       0.079       94.062
+SET       0.079       94.375
+SET       0.079       94.688
+SET       0.079       95.000
+SET       0.079       95.312
+SET       0.079       95.625
+SET       0.079       95.938
+SET       0.079       96.250
+SET       0.079       96.562
+SET       0.079       96.875
+SET       0.079       97.031
+SET       0.079       97.188
+SET       0.079       97.344
+SET       0.087       97.500
+SET       0.087       97.656
+SET       0.087       97.812
+SET       0.087       97.969
+SET       0.087       98.125
+SET       0.087       98.281
+SET       0.087       98.438
+SET       0.087       98.516
+SET       0.087       98.594
+SET       0.087       98.672
+SET       0.087       98.750
+SET       0.087       98.828
+SET       0.087       98.906
+SET       0.087       98.984
+SET       0.095       99.062
+SET       0.095       99.141
+SET       0.095       99.219
+SET       0.095       99.258
+SET       0.095       99.297
+SET       0.095       99.336
+SET       0.095       99.375
+SET       0.095       99.414
+SET       0.095       99.453
+SET       0.095       99.492
+SET       0.095       99.531
+SET       0.103       99.570
+SET       0.103       99.609
+SET       0.103       99.629
+SET       0.103       99.648
+SET       0.103       99.668
+SET       0.103       99.688
+SET       0.103       99.707
+SET       0.111       99.727
+SET       0.111       99.746
+SET       0.111       99.766
+SET       0.111       99.785
+SET       0.119       99.805
+SET       0.119       99.814
+SET       0.119       99.824
+SET       0.127       99.834
+SET       0.135       99.844
+SET       0.143       99.854
+SET       0.151       99.863
+SET       0.159       99.873
+SET       0.159       99.883
+SET       0.167       99.893
+SET       0.167       99.902
+SET       0.167       99.907
+SET       0.175       99.912
+SET       0.175       99.917
+SET       0.175       99.922
+SET       0.175       99.927
+SET       0.183       99.932
+SET       0.183       99.937
+SET       0.183       99.941
+SET       0.183       99.946
+SET       0.183       99.951
+SET       0.191       99.954
+SET       0.191       99.956
+SET       0.191       99.958
+SET       0.191       99.961
+SET       0.191       99.963
+SET       0.191       99.966
+SET       0.191       99.968
+SET       0.191       99.971
+SET       0.199       99.973
+SET       0.199       99.976
+SET       0.199       99.977
+SET       0.199       99.978
+SET       0.199       99.979
+SET       0.199       99.980
+SET       0.199       99.982
+SET       0.207       99.983
+SET       0.207       99.984
+SET       0.207       99.985
+SET       0.207       99.987
+SET       0.207       99.988
+SET       0.207       99.988
+SET       0.207       99.989
+SET       0.215       99.990
+SET       0.215       99.990
+SET       0.215       99.991
+SET       0.215       99.991
+SET       0.223       99.992
+SET       0.223       99.993
+SET       0.239       99.993
+SET       0.247       99.994
+SET       0.255       99.994
+SET       0.271       99.995
+SET       0.279       99.995
+SET       0.287       99.995
+SET       0.287       99.995
+SET       0.287       99.996
+SET       0.287       99.996
+SET       0.295       99.996
+SET       0.295       99.997
+SET       0.303       99.997
+SET       0.303       99.997
+SET       0.311       99.997
+SET       0.311       99.997
+SET       0.311       99.998
+SET       0.311       99.998
+SET       0.311       99.998
+SET       0.311       99.998
+SET       0.319       99.998
+SET       0.319       99.998
+SET       0.327       99.998
+SET       0.327       99.999
+SET       0.335       99.999
+SET       0.335       99.999
+SET       0.335       99.999
+SET       0.335       99.999
+SET       0.351       99.999
+SET       0.351       99.999
+SET       0.351       99.999
+SET       0.351       99.999
+SET       0.591       99.999
+SET       0.591       99.999
+SET       0.591       99.999
+SET       0.591       99.999
+SET       0.591       99.999
+SET       0.591       99.999
+SET       0.815       99.999
+SET       0.815      100.000
+SET       0.815      100.000
+SET       0.815      100.000
+SET       0.815      100.000
+SET       0.815      100.000
+SET       0.815      100.000
+SET       0.815      100.000
+SET       0.815      100.000
+SET       0.815      100.000
+SET       0.999      100.000
+SET       0.999      100.000
+---
+GET       0.023        0.000
+GET       0.055        5.000
+GET       0.055       10.000
+GET       0.055       15.000
+GET       0.055       20.000
+GET       0.055       25.000
+GET       0.055       30.000
+GET       0.055       35.000
+GET       0.063       40.000
+GET       0.063       45.000
+GET       0.063       50.000
+GET       0.063       52.500
+GET       0.063       55.000
+GET       0.063       57.500
+GET       0.063       60.000
+GET       0.063       62.500
+GET       0.063       65.000
+GET       0.063       67.500
+GET       0.063       70.000
+GET       0.063       72.500
+GET       0.063       75.000
+GET       0.063       76.250
+GET       0.063       77.500
+GET       0.063       78.750
+GET       0.063       80.000
+GET       0.071       81.250
+GET       0.071       82.500
+GET       0.071       83.750
+GET       0.071       85.000
+GET       0.071       86.250
+GET       0.071       87.500
+GET       0.071       88.125
+GET       0.071       88.750
+GET       0.071       89.375
+GET       0.071       90.000
+GET       0.071       90.625
+GET       0.071       91.250
+GET       0.071       91.875
+GET       0.079       92.500
+GET       0.079       93.125
+GET       0.079       93.750
+GET       0.079       94.062
+GET       0.079       94.375
+GET       0.079       94.688
+GET       0.079       95.000
+GET       0.079       95.312
+GET       0.079       95.625
+GET       0.079       95.938
+GET       0.079       96.250
+GET       0.079       96.562
+GET       0.079       96.875
+GET       0.079       97.031
+GET       0.079       97.188
+GET       0.079       97.344
+GET       0.079       97.500
+GET       0.079       97.656
+GET       0.079       97.812
+GET       0.079       97.969
+GET       0.087       98.125
+GET       0.087       98.281
+GET       0.087       98.438
+GET       0.087       98.516
+GET       0.087       98.594
+GET       0.087       98.672
+GET       0.087       98.750
+GET       0.087       98.828
+GET       0.087       98.906
+GET       0.087       98.984
+GET       0.087       99.062
+GET       0.087       99.141
+GET       0.087       99.219
+GET       0.095       99.258
+GET       0.095       99.297
+GET       0.095       99.336
+GET       0.095       99.375
+GET       0.095       99.414
+GET       0.095       99.453
+GET       0.095       99.492
+GET       0.095       99.531
+GET       0.095       99.570
+GET       0.095       99.609
+GET       0.103       99.629
+GET       0.103       99.648
+GET       0.103       99.668
+GET       0.103       99.688
+GET       0.103       99.707
+GET       0.103       99.727
+GET       0.103       99.746
+GET       0.111       99.766
+GET       0.111       99.785
+GET       0.111       99.805
+GET       0.119       99.814
+GET       0.119       99.824
+GET       0.119       99.834
+GET       0.127       99.844
+GET       0.135       99.854
+GET       0.143       99.863
+GET       0.151       99.873
+GET       0.151       99.883
+GET       0.159       99.893
+GET       0.167       99.902
+GET       0.167       99.907
+GET       0.167       99.912
+GET       0.167       99.917
+GET       0.167       99.922
+GET       0.175       99.927
+GET       0.175       99.932
+GET       0.175       99.937
+GET       0.175       99.941
+GET       0.183       99.946
+GET       0.183       99.951
+GET       0.183       99.954
+GET       0.183       99.956
+GET       0.183       99.958
+GET       0.183       99.961
+GET       0.183       99.963
+GET       0.183       99.966
+GET       0.191       99.968
+GET       0.191       99.971
+GET       0.191       99.973
+GET       0.191       99.976
+GET       0.191       99.977
+GET       0.191       99.978
+GET       0.191       99.979
+GET       0.191       99.980
+GET       0.191       99.982
+GET       0.191       99.983
+GET       0.199       99.984
+GET       0.199       99.985
+GET       0.199       99.987
+GET       0.199       99.988
+GET       0.199       99.988
+GET       0.199       99.989
+GET       0.199       99.990
+GET       0.199       99.990
+GET       0.199       99.991
+GET       0.199       99.991
+GET       0.199       99.992
+GET       0.207       99.993
+GET       0.207       99.993
+GET       0.207       99.994
+GET       0.207       99.994
+GET       0.207       99.995
+GET       0.207       99.995
+GET       0.207       99.995
+GET       0.207       99.995
+GET       0.207       99.996
+GET       0.215       99.996
+GET       0.215       99.996
+GET       0.215       99.997
+GET       0.215       99.997
+GET       0.215       99.997
+GET       0.215       99.997
+GET       0.215       99.997
+GET       0.215       99.998
+GET       0.215       99.998
+GET       0.223       99.998
+GET       0.223       99.998
+GET       0.223       99.998
+GET       0.223       99.998
+GET       0.223       99.998
+GET       0.223       99.999
+GET       0.223       99.999
+GET       0.223       99.999
+GET       0.231       99.999
+GET       0.231       99.999
+GET       0.231       99.999
+GET       0.231       99.999
+GET       0.231       99.999
+GET       0.231       99.999
+GET       0.239       99.999
+GET       0.239       99.999
+GET       0.239       99.999
+GET       0.239       99.999
+GET       0.239       99.999
+GET       0.239       99.999
+GET       0.239       99.999
+GET       0.247      100.000
+GET       0.247      100.000
+GET       0.247      100.000
+GET       0.247      100.000
+GET       0.247      100.000
+GET       0.247      100.000
+GET       0.255      100.000
+GET       0.263      100.000
+GET       0.263      100.000
+GET       0.327      100.000
+GET       0.615      100.000
+GET       0.615      100.000
+GET       0.815      100.000
+GET       0.831      100.000
+GET       0.831      100.000
+GET       0.831      100.000
+GET       0.847      100.000
+GET       0.847      100.000
+GET       0.847      100.000
+GET       0.951      100.000
+GET       0.951      100.000
+GET       0.951      100.000
+GET       0.991      100.000
+GET       0.991      100.000
+GET       0.991      100.000
+GET       0.991      100.000
+GET       0.991      100.000
+GET       0.991      100.000
+GET       0.991      100.000
+GET       0.991      100.000
+GET       0.991      100.000
+GET       0.991      100.000
+GET       0.999      100.000
+GET       0.999      100.000
+GET       0.999      100.000
+GET       0.999      100.000
+GET       0.999      100.000
+GET       0.999      100.000
+GET       0.999      100.000
+GET       0.999      100.000
+GET       0.999      100.000
+GET       0.999      100.000
+GET       1.375      100.000
+GET       1.375      100.000
+---
+WAIT      0.000      100.000
+
+

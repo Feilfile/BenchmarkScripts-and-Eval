@@ -1,0 +1,1324 @@
+Writing results to stdout
+[RUN #1] Preparing benchmark client...
+[RUN #1] Launching threads now...
+[RUN #1 0%,   0 secs]  4 threads:       23806 ops,   26959 (avg:   26959) ops/sec, 2.40GB/sec (avg: 2.40GB/sec), 33.56 (avg: 33.56) msec latency[RUN #1 0%,   1 secs]  4 threads:       69886 ops,   46052 (avg:   37101) ops/sec, 3.79GB/sec (avg: 3.14GB/sec), 21.99 (avg: 25.93) msec latency[RUN #1 0%,   2 secs]  4 threads:      112120 ops,   42209 (avg:   38873) ops/sec, 3.82GB/sec (avg: 3.38GB/sec), 23.43 (avg: 24.99) msec latency[RUN #1 1%,   3 secs]  4 threads:      156282 ops,   44128 (avg:   40227) ops/sec, 4.09GB/sec (avg: 3.56GB/sec), 22.61 (avg: 24.31) msec latency[RUN #1 1%,   4 secs]  4 threads:      205677 ops,   49361 (avg:   42098) ops/sec, 4.02GB/sec (avg: 3.65GB/sec), 20.60 (avg: 23.42) msec latency[RUN #1 1%,   5 secs]  4 threads:      248291 ops,   42577 (avg:   42179) ops/sec, 4.07GB/sec (avg: 3.73GB/sec), 23.52 (avg: 23.44) msec latency[RUN #1 1%,   6 secs]  4 threads:      302629 ops,   54297 (avg:   43940) ops/sec, 4.03GB/sec (avg: 3.77GB/sec), 18.72 (avg: 22.59) msec latency[RUN #1 1%,   7 secs]  4 threads:      351745 ops,   49059 (avg:   44589) ops/sec, 4.00GB/sec (avg: 3.80GB/sec), 20.37 (avg: 22.28) msec latency[RUN #1 1%,   8 secs]  4 threads:      396184 ops,   44396 (avg:   44568) ops/sec, 4.05GB/sec (avg: 3.83GB/sec), 22.24 (avg: 22.28) msec latency[RUN #1 2%,   9 secs]  4 threads:      432867 ops,   36670 (avg:   43769) ops/sec, 3.93GB/sec (avg: 3.84GB/sec), 27.09 (avg: 22.68) msec latency[RUN #1 2%,  10 secs]  4 threads:      467769 ops,   34890 (avg:   42953) ops/sec, 3.84GB/sec (avg: 3.84GB/sec), 28.63 (avg: 23.13) msec latency[RUN #1 2%,  11 secs]  4 threads:      507047 ops,   39258 (avg:   42642) ops/sec, 3.75GB/sec (avg: 3.83GB/sec), 26.15 (avg: 23.36) msec latency[RUN #1 2%,  12 secs]  4 threads:      553039 ops,   45973 (avg:   42901) ops/sec, 3.51GB/sec (avg: 3.81GB/sec), 20.69 (avg: 23.14) msec latency[RUN #1 2%,  13 secs]  4 threads:      600267 ops,   47207 (avg:   43211) ops/sec, 3.88GB/sec (avg: 3.81GB/sec), 21.69 (avg: 23.03) msec latency[RUN #1 2%,  14 secs]  4 threads:      646070 ops,   45780 (avg:   43383) ops/sec, 3.94GB/sec (avg: 3.82GB/sec), 22.00 (avg: 22.95) msec latency[RUN #1 3%,  15 secs]  4 threads:      686752 ops,   40662 (avg:   43212) ops/sec, 3.77GB/sec (avg: 3.82GB/sec), 23.66 (avg: 23.00) msec latency[RUN #1 3%,  16 secs]  4 threads:      723716 ops,   36940 (avg:   42841) ops/sec, 3.52GB/sec (avg: 3.80GB/sec), 27.27 (avg: 23.21) msec latency[RUN #1 3%,  17 secs]  4 threads:      767498 ops,   43755 (avg:   42892) ops/sec, 3.74GB/sec (avg: 3.79GB/sec), 23.34 (avg: 23.22) msec latency[RUN #1 3%,  18 secs]  4 threads:      807709 ops,   40184 (avg:   42748) ops/sec, 3.83GB/sec (avg: 3.80GB/sec), 24.56 (avg: 23.29) msec latency[RUN #1 3%,  19 secs]  4 threads:      850168 ops,   42427 (avg:   42732) ops/sec, 4.06GB/sec (avg: 3.81GB/sec), 24.26 (avg: 23.34) msec latency[RUN #1 3%,  20 secs]  4 threads:      887971 ops,   37773 (avg:   42495) ops/sec, 3.66GB/sec (avg: 3.80GB/sec), 25.64 (avg: 23.43) msec latency[RUN #1 4%,  21 secs]  4 threads:      928648 ops,   40645 (avg:   42410) ops/sec, 4.18GB/sec (avg: 3.82GB/sec), 25.55 (avg: 23.53) msec latency[RUN #1 4%,  22 secs]  4 threads:      973386 ops,   44717 (avg:   42511) ops/sec, 3.71GB/sec (avg: 3.81GB/sec), 21.68 (avg: 23.44) msec latency[RUN #1 4%,  23 secs]  4 threads:     1021283 ops,   47852 (avg:   42735) ops/sec, 3.92GB/sec (avg: 3.82GB/sec), 21.10 (avg: 23.33) msec latency[RUN #1 4%,  24 secs]  4 threads:     1065256 ops,   43926 (avg:   42783) ops/sec, 3.83GB/sec (avg: 3.82GB/sec), 22.67 (avg: 23.31) msec latency[RUN #1 4%,  25 secs]  4 threads:     1100940 ops,   35661 (avg:   42507) ops/sec, 3.98GB/sec (avg: 3.83GB/sec), 28.57 (avg: 23.48) msec latency[RUN #1 4%,  26 secs]  4 threads:     1144426 ops,   43472 (avg:   42543) ops/sec, 4.04GB/sec (avg: 3.83GB/sec), 22.96 (avg: 23.46) msec latency[RUN #1 5%,  27 secs]  4 threads:     1189479 ops,   45034 (avg:   42633) ops/sec, 3.82GB/sec (avg: 3.83GB/sec), 21.90 (avg: 23.40) msec latency[RUN #1 5%,  28 secs]  4 threads:     1239638 ops,   50138 (avg:   42892) ops/sec, 3.69GB/sec (avg: 3.83GB/sec), 20.15 (avg: 23.27) msec latency[RUN #1 5%,  29 secs]  4 threads:     1288254 ops,   48595 (avg:   43083) ops/sec, 3.56GB/sec (avg: 3.82GB/sec), 20.48 (avg: 23.16) msec latency[RUN #1 5%,  30 secs]  4 threads:     1332681 ops,   44407 (avg:   43126) ops/sec, 3.79GB/sec (avg: 3.82GB/sec), 22.13 (avg: 23.13) msec latency[RUN #1 5%,  31 secs]  4 threads:     1371850 ops,   39149 (avg:   43001) ops/sec, 3.73GB/sec (avg: 3.82GB/sec), 25.36 (avg: 23.19) msec latency[RUN #1 5%,  32 secs]  4 threads:     1416146 ops,   44271 (avg:   43040) ops/sec, 3.93GB/sec (avg: 3.82GB/sec), 23.08 (avg: 23.19) msec latency[RUN #1 6%,  33 secs]  4 threads:     1460308 ops,   44133 (avg:   43072) ops/sec, 3.97GB/sec (avg: 3.82GB/sec), 22.62 (avg: 23.17) msec latency[RUN #1 6%,  34 secs]  4 threads:     1496228 ops,   35895 (avg:   42866) ops/sec, 3.93GB/sec (avg: 3.83GB/sec), 27.72 (avg: 23.28) msec latency[RUN #1 6%,  35 secs]  4 threads:     1537715 ops,   41458 (avg:   42827) ops/sec, 4.06GB/sec (avg: 3.83GB/sec), 24.06 (avg: 23.30) msec latency[RUN #1 6%,  36 secs]  4 threads:     1582250 ops,   44521 (avg:   42873) ops/sec, 4.12GB/sec (avg: 3.84GB/sec), 23.02 (avg: 23.29) msec latency[RUN #1 6%,  37 secs]  4 threads:     1626583 ops,   44299 (avg:   42911) ops/sec, 3.62GB/sec (avg: 3.84GB/sec), 22.03 (avg: 23.26) msec latency[RUN #1 6%,  38 secs]  4 threads:     1669258 ops,   42638 (avg:   42904) ops/sec, 3.93GB/sec (avg: 3.84GB/sec), 23.91 (avg: 23.27) msec latency[RUN #1 7%,  39 secs]  4 threads:     1716004 ops,   46702 (avg:   42999) ops/sec, 3.76GB/sec (avg: 3.84GB/sec), 21.28 (avg: 23.22) msec latency[RUN #1 7%,  40 secs]  4 threads:     1765193 ops,   49164 (avg:   43150) ops/sec, 3.86GB/sec (avg: 3.84GB/sec), 19.90 (avg: 23.13) msec latency[RUN #1 7%,  41 secs]  4 threads:     1808127 ops,   42889 (avg:   43143) ops/sec, 4.04GB/sec (avg: 3.84GB/sec), 23.63 (avg: 23.14) msec latency[RUN #1 7%,  42 secs]  4 threads:     1843497 ops,   35352 (avg:   42962) ops/sec, 3.98GB/sec (avg: 3.84GB/sec), 28.41 (avg: 23.24) msec latency[RUN #1 7%,  43 secs]  4 threads:     1902697 ops,   59178 (avg:   43331) ops/sec, 3.84GB/sec (avg: 3.84GB/sec), 16.97 (avg: 23.05) msec latency[RUN #1 7%,  44 secs]  4 threads:     1941419 ops,   38708 (avg:   43228) ops/sec, 3.96GB/sec (avg: 3.85GB/sec), 25.11 (avg: 23.09) msec latency[RUN #1 8%,  45 secs]  4 threads:     1982080 ops,   40644 (avg:   43172) ops/sec, 4.13GB/sec (avg: 3.85GB/sec), 25.20 (avg: 23.13) msec latency[RUN #1 8%,  46 secs]  4 threads:     2023537 ops,   41438 (avg:   43135) ops/sec, 3.81GB/sec (avg: 3.85GB/sec), 23.53 (avg: 23.14) msec latency[RUN #1 8%,  47 secs]  4 threads:     2062140 ops,   38581 (avg:   43040) ops/sec, 3.78GB/sec (avg: 3.85GB/sec), 25.68 (avg: 23.19) msec latency[RUN #1 8%,  48 secs]  4 threads:     2110686 ops,   48522 (avg:   43152) ops/sec, 3.96GB/sec (avg: 3.85GB/sec), 21.33 (avg: 23.14) msec latency[RUN #1 8%,  49 secs]  4 threads:     2164084 ops,   53378 (avg:   43357) ops/sec, 3.93GB/sec (avg: 3.85GB/sec), 18.95 (avg: 23.04) msec latency[RUN #1 8%,  50 secs]  4 threads:     2210323 ops,   46211 (avg:   43413) ops/sec, 3.85GB/sec (avg: 3.85GB/sec), 21.12 (avg: 23.00) msec latency[RUN #1 9%,  51 secs]  4 threads:     2251263 ops,   40915 (avg:   43365) ops/sec, 3.85GB/sec (avg: 3.85GB/sec), 24.64 (avg: 23.03) msec latency[RUN #1 9%,  52 secs]  4 threads:     2291507 ops,   40218 (avg:   43305) ops/sec, 3.99GB/sec (avg: 3.86GB/sec), 24.92 (avg: 23.06) msec latency[RUN #1 9%,  53 secs]  4 threads:     2328377 ops,   36841 (avg:   43185) ops/sec, 4.02GB/sec (avg: 3.86GB/sec), 26.37 (avg: 23.11) msec latency[RUN #1 9%,  54 secs]  4 threads:     2371645 ops,   43232 (avg:   43186) ops/sec, 3.70GB/sec (avg: 3.86GB/sec), 22.89 (avg: 23.11) msec latency[RUN #1 9%,  55 secs]  4 threads:     2416009 ops,   44319 (avg:   43207) ops/sec, 3.83GB/sec (avg: 3.86GB/sec), 23.02 (avg: 23.11) msec latency[RUN #1 9%,  56 secs]  4 threads:     2456261 ops,   40213 (avg:   43154) ops/sec, 3.77GB/sec (avg: 3.85GB/sec), 24.90 (avg: 23.14) msec latency[RUN #1 10%,  57 secs]  4 threads:     2498083 ops,   41778 (avg:   43130) ops/sec, 3.75GB/sec (avg: 3.85GB/sec), 24.35 (avg: 23.16) msec latency[RUN #1 10%,  58 secs]  4 threads:     2539833 ops,   41717 (avg:   43106) ops/sec, 3.63GB/sec (avg: 3.85GB/sec), 23.43 (avg: 23.16) msec latency[RUN #1 10%,  59 secs]  4 threads:     2578060 ops,   38212 (avg:   43024) ops/sec, 3.50GB/sec (avg: 3.84GB/sec), 25.82 (avg: 23.20) msec latency[RUN #1 10%,  60 secs]  4 threads:     2618713 ops,   40639 (avg:   42985) ops/sec, 3.54GB/sec (avg: 3.84GB/sec), 24.84 (avg: 23.23) msec latency[RUN #1 10%,  61 secs]  4 threads:     2658589 ops,   39863 (avg:   42935) ops/sec, 3.59GB/sec (avg: 3.83GB/sec), 24.86 (avg: 23.25) msec latency[RUN #1 10%,  62 secs]  4 threads:     2705045 ops,   46441 (avg:   42991) ops/sec, 3.76GB/sec (avg: 3.83GB/sec), 22.02 (avg: 23.23) msec latency[RUN #1 11%,  63 secs]  4 threads:     2755111 ops,   50051 (avg:   43101) ops/sec, 4.05GB/sec (avg: 3.84GB/sec), 19.87 (avg: 23.17) msec latency[RUN #1 11%,  64 secs]  4 threads:     2798890 ops,   43753 (avg:   43111) ops/sec, 3.75GB/sec (avg: 3.84GB/sec), 23.15 (avg: 23.17) msec latency[RUN #1 11%,  65 secs]  4 threads:     2838083 ops,   39181 (avg:   43051) ops/sec, 4.08GB/sec (avg: 3.84GB/sec), 25.80 (avg: 23.21) msec latency[RUN #1 11%,  66 secs]  4 threads:     2879664 ops,   41568 (avg:   43029) ops/sec, 4.14GB/sec (avg: 3.84GB/sec), 23.85 (avg: 23.22) msec latency[RUN #1 11%,  67 secs]  4 threads:     2917909 ops,   38230 (avg:   42959) ops/sec, 3.72GB/sec (avg: 3.84GB/sec), 25.80 (avg: 23.25) msec latency[RUN #1 11%,  68 secs]  4 threads:     2960761 ops,   42838 (avg:   42957) ops/sec, 3.87GB/sec (avg: 3.84GB/sec), 23.53 (avg: 23.25) msec latency[RUN #1 12%,  69 secs]  4 threads:     3011383 ops,   50608 (avg:   43066) ops/sec, 4.35GB/sec (avg: 3.85GB/sec), 19.77 (avg: 23.19) msec latency[RUN #1 12%,  70 secs]  4 threads:     3057364 ops,   45968 (avg:   43107) ops/sec, 4.18GB/sec (avg: 3.85GB/sec), 21.33 (avg: 23.17) msec latency[RUN #1 12%,  71 secs]  4 threads:     3106449 ops,   49070 (avg:   43190) ops/sec, 4.47GB/sec (avg: 3.86GB/sec), 20.85 (avg: 23.13) msec latency[RUN #1 12%,  72 secs]  4 threads:     3155743 ops,   49280 (avg:   43274) ops/sec, 4.26GB/sec (avg: 3.87GB/sec), 20.21 (avg: 23.08) msec latency[RUN #1 12%,  73 secs]  4 threads:     3212058 ops,   56298 (avg:   43450) ops/sec, 4.20GB/sec (avg: 3.87GB/sec), 17.59 (avg: 22.99) msec latency[RUN #1 12%,  74 secs]  4 threads:     3257288 ops,   45218 (avg:   43474) ops/sec, 4.25GB/sec (avg: 3.88GB/sec), 22.24 (avg: 22.98) msec latency[RUN #1 13%,  75 secs]  4 threads:     3302865 ops,   45547 (avg:   43501) ops/sec, 4.19GB/sec (avg: 3.88GB/sec), 22.07 (avg: 22.97) msec latency[RUN #1 13%,  76 secs]  4 threads:     3342618 ops,   39742 (avg:   43452) ops/sec, 4.15GB/sec (avg: 3.89GB/sec), 25.41 (avg: 22.99) msec latency[RUN #1 13%,  77 secs]  4 threads:     3390139 ops,   47507 (avg:   43504) ops/sec, 4.20GB/sec (avg: 3.89GB/sec), 20.52 (avg: 22.96) msec latency[RUN #1 13%,  78 secs]  4 threads:     3438587 ops,   48433 (avg:   43566) ops/sec, 4.03GB/sec (avg: 3.89GB/sec), 21.03 (avg: 22.93) msec latency[RUN #1 13%,  79 secs]  4 threads:     3487164 ops,   48563 (avg:   43629) ops/sec, 4.31GB/sec (avg: 3.90GB/sec), 20.64 (avg: 22.90) msec latency[RUN #1 13%,  80 secs]  4 threads:     3537957 ops,   50777 (avg:   43717) ops/sec, 4.10GB/sec (avg: 3.90GB/sec), 19.59 (avg: 22.85) msec latency[RUN #1 14%,  81 secs]  4 threads:     3580799 ops,   42830 (avg:   43707) ops/sec, 4.23GB/sec (avg: 3.90GB/sec), 23.57 (avg: 22.86) msec latency[RUN #1 14%,  82 secs]  4 threads:     3627710 ops,   46896 (avg:   43745) ops/sec, 4.07GB/sec (avg: 3.90GB/sec), 21.24 (avg: 22.84) msec latency[RUN #1 14%,  83 secs]  4 threads:     3671897 ops,   44174 (avg:   43750) ops/sec, 4.23GB/sec (avg: 3.91GB/sec), 22.68 (avg: 22.84) msec latency[RUN #1 14%,  84 secs]  4 threads:     3719433 ops,   47521 (avg:   43795) ops/sec, 4.17GB/sec (avg: 3.91GB/sec), 20.95 (avg: 22.81) msec latency[RUN #1 14%,  85 secs]  4 threads:     3765045 ops,   45599 (avg:   43816) ops/sec, 4.13GB/sec (avg: 3.91GB/sec), 21.64 (avg: 22.80) msec latency[RUN #1 14%,  86 secs]  4 threads:     3804593 ops,   39535 (avg:   43766) ops/sec, 3.77GB/sec (avg: 3.91GB/sec), 25.57 (avg: 22.83) msec latency[RUN #1 15%,  87 secs]  4 threads:     3848587 ops,   43981 (avg:   43769) ops/sec, 3.48GB/sec (avg: 3.91GB/sec), 22.64 (avg: 22.83) msec latency[RUN #1 15%,  88 secs]  4 threads:     3896996 ops,   48395 (avg:   43821) ops/sec, 3.86GB/sec (avg: 3.91GB/sec), 20.92 (avg: 22.80) msec latency[RUN #1 15%,  89 secs]  4 threads:     3945720 ops,   48710 (avg:   43875) ops/sec, 4.28GB/sec (avg: 3.91GB/sec), 20.13 (avg: 22.77) msec latency[RUN #1 15%,  90 secs]  4 threads:     3986106 ops,   40375 (avg:   43837) ops/sec, 4.17GB/sec (avg: 3.91GB/sec), 24.97 (avg: 22.79) msec latency[RUN #1 15%,  91 secs]  4 threads:     4026703 ops,   40585 (avg:   43801) ops/sec, 3.44GB/sec (avg: 3.91GB/sec), 24.32 (avg: 22.81) msec latency[RUN #1 15%,  92 secs]  4 threads:     4074941 ops,   48224 (avg:   43849) ops/sec, 4.01GB/sec (avg: 3.91GB/sec), 21.24 (avg: 22.79) msec latency[RUN #1 16%,  93 secs]  4 threads:     4119005 ops,   44052 (avg:   43851) ops/sec, 3.92GB/sec (avg: 3.91GB/sec), 22.45 (avg: 22.79) msec latency[RUN #1 16%,  94 secs]  4 threads:     4158196 ops,   39177 (avg:   43802) ops/sec, 3.26GB/sec (avg: 3.90GB/sec), 25.18 (avg: 22.81) msec latency[RUN #1 16%,  95 secs]  4 threads:     4198907 ops,   40697 (avg:   43769) ops/sec, 4.06GB/sec (avg: 3.91GB/sec), 25.17 (avg: 22.83) msec latency[RUN #1 16%,  96 secs]  4 threads:     4245364 ops,   46445 (avg:   43797) ops/sec, 4.24GB/sec (avg: 3.91GB/sec), 21.49 (avg: 22.82) msec latency[RUN #1 16%,  97 secs]  4 threads:     4286945 ops,   41569 (avg:   43774) ops/sec, 4.11GB/sec (avg: 3.91GB/sec), 23.54 (avg: 22.82) msec latency[RUN #1 16%,  98 secs]  4 threads:     4334467 ops,   47507 (avg:   43812) ops/sec, 4.12GB/sec (avg: 3.91GB/sec), 20.95 (avg: 22.80) msec latency[RUN #1 17%,  99 secs]  4 threads:     4371522 ops,   37043 (avg:   43744) ops/sec, 3.43GB/sec (avg: 3.91GB/sec), 27.03 (avg: 22.84) msec latency[RUN #1 17%, 100 secs]  4 threads:     4412411 ops,   40876 (avg:   43716) ops/sec, 3.84GB/sec (avg: 3.91GB/sec), 24.86 (avg: 22.86) msec latency[RUN #1 17%, 101 secs]  4 threads:     4459079 ops,   46655 (avg:   43745) ops/sec, 3.87GB/sec (avg: 3.91GB/sec), 21.42 (avg: 22.84) msec latency[RUN #1 17%, 102 secs]  4 threads:     4509232 ops,   50139 (avg:   43807) ops/sec, 4.19GB/sec (avg: 3.91GB/sec), 20.07 (avg: 22.81) msec latency[RUN #1 17%, 103 secs]  4 threads:     4559876 ops,   50625 (avg:   43872) ops/sec, 4.07GB/sec (avg: 3.91GB/sec), 19.39 (avg: 22.77) msec latency[RUN #1 17%, 104 secs]  4 threads:     4605675 ops,   45782 (avg:   43891) ops/sec, 4.13GB/sec (avg: 3.91GB/sec), 22.09 (avg: 22.77) msec latency[RUN #1 18%, 105 secs]  4 threads:     4650407 ops,   44719 (avg:   43898) ops/sec, 4.10GB/sec (avg: 3.91GB/sec), 22.22 (avg: 22.76) msec latency[RUN #1 18%, 106 secs]  4 threads:     4695490 ops,   45072 (avg:   43909) ops/sec, 4.12GB/sec (avg: 3.92GB/sec), 22.53 (avg: 22.76) msec latency[RUN #1 18%, 107 secs]  4 threads:     4739579 ops,   44075 (avg:   43911) ops/sec, 4.13GB/sec (avg: 3.92GB/sec), 22.56 (avg: 22.76) msec latency[RUN #1 18%, 108 secs]  4 threads:     4789949 ops,   50355 (avg:   43970) ops/sec, 4.17GB/sec (avg: 3.92GB/sec), 19.86 (avg: 22.73) msec latency[RUN #1 18%, 109 secs]  4 threads:     4841871 ops,   51909 (avg:   44042) ops/sec, 4.30GB/sec (avg: 3.92GB/sec), 19.18 (avg: 22.69) msec latency[RUN #1 18%, 110 secs]  4 threads:     4886492 ops,   44590 (avg:   44047) ops/sec, 4.20GB/sec (avg: 3.93GB/sec), 22.64 (avg: 22.69) msec latency[RUN #1 19%, 111 secs]  4 threads:     4934236 ops,   47729 (avg:   44080) ops/sec, 4.24GB/sec (avg: 3.93GB/sec), 20.90 (avg: 22.67) msec latency[RUN #1 19%, 112 secs]  4 threads:     4980103 ops,   45852 (avg:   44096) ops/sec, 4.11GB/sec (avg: 3.93GB/sec), 21.30 (avg: 22.66) msec latency[RUN #1 19%, 113 secs]  4 threads:     5025417 ops,   45303 (avg:   44106) ops/sec, 4.27GB/sec (avg: 3.93GB/sec), 22.18 (avg: 22.65) msec latency[RUN #1 19%, 114 secs]  4 threads:     5074948 ops,   49511 (avg:   44154) ops/sec, 4.33GB/sec (avg: 3.94GB/sec), 20.56 (avg: 22.63) msec latency[RUN #1 19%, 115 secs]  4 threads:     5122993 ops,   48028 (avg:   44187) ops/sec, 4.29GB/sec (avg: 3.94GB/sec), 20.83 (avg: 22.62) msec latency[RUN #1 19%, 116 secs]  4 threads:     5170940 ops,   47932 (avg:   44219) ops/sec, 4.25GB/sec (avg: 3.94GB/sec), 20.49 (avg: 22.60) msec latency[RUN #1 20%, 117 secs]  4 threads:     5221691 ops,   50736 (avg:   44274) ops/sec, 4.15GB/sec (avg: 3.95GB/sec), 19.64 (avg: 22.57) msec latency[RUN #1 20%, 118 secs]  4 threads:     5269825 ops,   48120 (avg:   44307) ops/sec, 4.28GB/sec (avg: 3.95GB/sec), 20.95 (avg: 22.55) msec latency[RUN #1 20%, 119 secs]  4 threads:     5318113 ops,   48274 (avg:   44340) ops/sec, 4.05GB/sec (avg: 3.95GB/sec), 20.14 (avg: 22.53) msec latency[RUN #1 20%, 120 secs]  4 threads:     5360491 ops,   42367 (avg:   44323) ops/sec, 4.14GB/sec (avg: 3.95GB/sec), 24.19 (avg: 22.55) msec latency[RUN #1 20%, 121 secs]  4 threads:     5399585 ops,   39083 (avg:   44280) ops/sec, 4.26GB/sec (avg: 3.95GB/sec), 25.67 (avg: 22.57) msec latency[RUN #1 20%, 122 secs]  4 threads:     5438286 ops,   38689 (avg:   44235) ops/sec, 4.17GB/sec (avg: 3.95GB/sec), 25.38 (avg: 22.59) msec latency[RUN #1 21%, 123 secs]  4 threads:     5475783 ops,   37486 (avg:   44180) ops/sec, 3.78GB/sec (avg: 3.95GB/sec), 26.93 (avg: 22.62) msec latency[RUN #1 21%, 124 secs]  4 threads:     5516613 ops,   40815 (avg:   44153) ops/sec, 4.12GB/sec (avg: 3.95GB/sec), 24.35 (avg: 22.63) msec latency[RUN #1 21%, 125 secs]  4 threads:     5564460 ops,   47835 (avg:   44183) ops/sec, 4.32GB/sec (avg: 3.96GB/sec), 21.37 (avg: 22.62) msec latency[RUN #1 21%, 126 secs]  4 threads:     5612619 ops,   48143 (avg:   44214) ops/sec, 4.06GB/sec (avg: 3.96GB/sec), 20.79 (avg: 22.60) msec latency[RUN #1 21%, 127 secs]  4 threads:     5663119 ops,   50483 (avg:   44263) ops/sec, 3.88GB/sec (avg: 3.96GB/sec), 19.35 (avg: 22.57) msec latency[RUN #1 21%, 128 secs]  4 threads:     5715231 ops,   52098 (avg:   44324) ops/sec, 4.12GB/sec (avg: 3.96GB/sec), 19.57 (avg: 22.55) msec latency[RUN #1 22%, 129 secs]  4 threads:     5764426 ops,   49181 (avg:   44361) ops/sec, 4.27GB/sec (avg: 3.96GB/sec), 20.20 (avg: 22.53) msec latency[RUN #1 22%, 130 secs]  4 threads:     5811786 ops,   47344 (avg:   44384) ops/sec, 4.25GB/sec (avg: 3.96GB/sec), 21.16 (avg: 22.52) msec latency[RUN #1 22%, 131 secs]  4 threads:     5857201 ops,   45397 (avg:   44392) ops/sec, 4.26GB/sec (avg: 3.97GB/sec), 22.04 (avg: 22.51) msec latency[RUN #1 22%, 132 secs]  4 threads:     5899872 ops,   42659 (avg:   44379) ops/sec, 4.12GB/sec (avg: 3.97GB/sec), 23.38 (avg: 22.52) msec latency[RUN #1 22%, 133 secs]  4 threads:     5946549 ops,   46664 (avg:   44396) ops/sec, 4.01GB/sec (avg: 3.97GB/sec), 21.38 (avg: 22.51) msec latency[RUN #1 22%, 134 secs]  4 threads:     5997056 ops,   50493 (avg:   44441) ops/sec, 4.35GB/sec (avg: 3.97GB/sec), 20.27 (avg: 22.49) msec latency[RUN #1 23%, 135 secs]  4 threads:     6045705 ops,   48636 (avg:   44472) ops/sec, 4.25GB/sec (avg: 3.97GB/sec), 20.41 (avg: 22.47) msec latency[RUN #1 23%, 136 secs]  4 threads:     6096767 ops,   51046 (avg:   44520) ops/sec, 4.31GB/sec (avg: 3.97GB/sec), 19.57 (avg: 22.45) msec latency[RUN #1 23%, 137 secs]  4 threads:     6143348 ops,   46563 (avg:   44535) ops/sec, 4.08GB/sec (avg: 3.98GB/sec), 21.13 (avg: 22.44) msec latency[RUN #1 23%, 138 secs]  4 threads:     6191647 ops,   48285 (avg:   44562) ops/sec, 4.11GB/sec (avg: 3.98GB/sec), 20.70 (avg: 22.43) msec latency[RUN #1 23%, 139 secs]  4 threads:     6235980 ops,   44320 (avg:   44560) ops/sec, 4.29GB/sec (avg: 3.98GB/sec), 22.77 (avg: 22.43) msec latency[RUN #1 23%, 140 secs]  4 threads:     6272430 ops,   36438 (avg:   44502) ops/sec, 3.97GB/sec (avg: 3.98GB/sec), 26.90 (avg: 22.45) msec latency[RUN #1 24%, 141 secs]  4 threads:     6312854 ops,   40414 (avg:   44473) ops/sec, 3.57GB/sec (avg: 3.98GB/sec), 25.31 (avg: 22.47) msec latency[RUN #1 24%, 142 secs]  4 threads:     6360174 ops,   47305 (avg:   44493) ops/sec, 4.13GB/sec (avg: 3.98GB/sec), 21.02 (avg: 22.46) msec latency[RUN #1 24%, 143 secs]  4 threads:     6412425 ops,   52234 (avg:   44547) ops/sec, 4.11GB/sec (avg: 3.98GB/sec), 19.08 (avg: 22.43) msec latency[RUN #1 24%, 144 secs]  4 threads:     6462796 ops,   50358 (avg:   44587) ops/sec, 4.10GB/sec (avg: 3.98GB/sec), 20.27 (avg: 22.42) msec latency[RUN #1 24%, 145 secs]  4 threads:     6511717 ops,   48905 (avg:   44617) ops/sec, 3.94GB/sec (avg: 3.98GB/sec), 19.83 (avg: 22.40) msec latency[RUN #1 24%, 146 secs]  4 threads:     6563583 ops,   51852 (avg:   44666) ops/sec, 4.05GB/sec (avg: 3.98GB/sec), 19.50 (avg: 22.38) msec latency[RUN #1 25%, 147 secs]  4 threads:     6611240 ops,   47643 (avg:   44686) ops/sec, 4.09GB/sec (avg: 3.98GB/sec), 20.99 (avg: 22.37) msec latency[RUN #1 25%, 148 secs]  4 threads:     6650524 ops,   39272 (avg:   44650) ops/sec, 4.24GB/sec (avg: 3.98GB/sec), 25.29 (avg: 22.38) msec latency[RUN #1 25%, 149 secs]  4 threads:     6696138 ops,   45597 (avg:   44656) ops/sec, 4.07GB/sec (avg: 3.98GB/sec), 21.84 (avg: 22.38) msec latency[RUN #1 25%, 150 secs]  4 threads:     6726274 ops,   30125 (avg:   44560) ops/sec, 3.37GB/sec (avg: 3.98GB/sec), 33.52 (avg: 22.43) msec latency[RUN #1 25%, 151 secs]  4 threads:     6777573 ops,   51284 (avg:   44604) ops/sec, 4.16GB/sec (avg: 3.98GB/sec), 19.37 (avg: 22.41) msec latency[RUN #1 25%, 152 secs]  4 threads:     6828055 ops,   50469 (avg:   44642) ops/sec, 4.09GB/sec (avg: 3.98GB/sec), 19.78 (avg: 22.39) msec latency[RUN #1 26%, 153 secs]  4 threads:     6877199 ops,   49128 (avg:   44671) ops/sec, 4.35GB/sec (avg: 3.98GB/sec), 20.62 (avg: 22.37) msec latency[RUN #1 26%, 154 secs]  4 threads:     6922766 ops,   45553 (avg:   44677) ops/sec, 4.22GB/sec (avg: 3.98GB/sec), 21.73 (avg: 22.37) msec latency[RUN #1 26%, 155 secs]  4 threads:     6963857 ops,   41080 (avg:   44654) ops/sec, 4.14GB/sec (avg: 3.98GB/sec), 24.34 (avg: 22.38) msec latency[RUN #1 26%, 156 secs]  4 threads:     6995576 ops,   31711 (avg:   44572) ops/sec, 3.48GB/sec (avg: 3.98GB/sec), 30.74 (avg: 22.42) msec latency[RUN #1 26%, 157 secs]  4 threads:     7030439 ops,   34852 (avg:   44510) ops/sec, 3.55GB/sec (avg: 3.98GB/sec), 29.04 (avg: 22.45) msec latency[RUN #1 26%, 158 secs]  4 threads:     7075282 ops,   44831 (avg:   44512) ops/sec, 4.27GB/sec (avg: 3.98GB/sec), 22.90 (avg: 22.45) msec latency[RUN #1 27%, 159 secs]  4 threads:     7126250 ops,   50953 (avg:   44552) ops/sec, 4.18GB/sec (avg: 3.98GB/sec), 19.50 (avg: 22.43) msec latency[RUN #1 27%, 160 secs]  4 threads:     7176396 ops,   50131 (avg:   44587) ops/sec, 4.10GB/sec (avg: 3.98GB/sec), 19.88 (avg: 22.42) msec latency[RUN #1 27%, 161 secs]  4 threads:     7227499 ops,   51089 (avg:   44627) ops/sec, 4.18GB/sec (avg: 3.98GB/sec), 19.78 (avg: 22.40) msec latency[RUN #1 27%, 162 secs]  4 threads:     7280990 ops,   53473 (avg:   44681) ops/sec, 4.27GB/sec (avg: 3.99GB/sec), 18.71 (avg: 22.37) msec latency[RUN #1 27%, 163 secs]  4 threads:     7331476 ops,   50462 (avg:   44717) ops/sec, 4.19GB/sec (avg: 3.99GB/sec), 19.60 (avg: 22.35) msec latency[RUN #1 27%, 164 secs]  4 threads:     7373983 ops,   42494 (avg:   44703) ops/sec, 4.40GB/sec (avg: 3.99GB/sec), 23.54 (avg: 22.36) msec latency[RUN #1 28%, 165 secs]  4 threads:     7416695 ops,   42699 (avg:   44691) ops/sec, 3.99GB/sec (avg: 3.99GB/sec), 23.27 (avg: 22.36) msec latency[RUN #1 28%, 166 secs]  4 threads:     7458237 ops,   41530 (avg:   44672) ops/sec, 4.01GB/sec (avg: 3.99GB/sec), 24.10 (avg: 22.37) msec latency[RUN #1 28%, 167 secs]  4 threads:     7503560 ops,   45307 (avg:   44676) ops/sec, 4.09GB/sec (avg: 3.99GB/sec), 22.07 (avg: 22.37) msec latency[RUN #1 28%, 168 secs]  4 threads:     7553408 ops,   49832 (avg:   44707) ops/sec, 4.32GB/sec (avg: 3.99GB/sec), 20.27 (avg: 22.36) msec latency[RUN #1 28%, 169 secs]  4 threads:     7602748 ops,   49325 (avg:   44734) ops/sec, 4.15GB/sec (avg: 3.99GB/sec), 20.15 (avg: 22.34) msec latency[RUN #1 28%, 170 secs]  4 threads:     7647210 ops,   44450 (avg:   44732) ops/sec, 4.40GB/sec (avg: 4.00GB/sec), 22.35 (avg: 22.34) msec latency[RUN #1 29%, 171 secs]  4 threads:     7689902 ops,   42676 (avg:   44720) ops/sec, 4.23GB/sec (avg: 4.00GB/sec), 23.64 (avg: 22.35) msec latency[RUN #1 29%, 172 secs]  4 threads:     7734470 ops,   44555 (avg:   44719) ops/sec, 4.28GB/sec (avg: 4.00GB/sec), 22.43 (avg: 22.35) msec latency[RUN #1 29%, 173 secs]  4 threads:     7782385 ops,   47903 (avg:   44737) ops/sec, 4.09GB/sec (avg: 4.00GB/sec), 21.02 (avg: 22.34) msec latency[RUN #1 29%, 174 secs]  4 threads:     7828229 ops,   45830 (avg:   44744) ops/sec, 4.25GB/sec (avg: 4.00GB/sec), 21.36 (avg: 22.34) msec latency[RUN #1 29%, 175 secs]  4 threads:     7871603 ops,   43358 (avg:   44736) ops/sec, 3.98GB/sec (avg: 4.00GB/sec), 23.27 (avg: 22.34) msec latency[RUN #1 29%, 176 secs]  4 threads:     7924965 ops,   53342 (avg:   44785) ops/sec, 4.22GB/sec (avg: 4.00GB/sec), 18.85 (avg: 22.32) msec latency[RUN #1 30%, 177 secs]  4 threads:     7973898 ops,   48918 (avg:   44808) ops/sec, 4.14GB/sec (avg: 4.00GB/sec), 20.38 (avg: 22.31) msec latency[RUN #1 30%, 178 secs]  4 threads:     8021863 ops,   47952 (avg:   44825) ops/sec, 4.33GB/sec (avg: 4.00GB/sec), 21.00 (avg: 22.30) msec latency[RUN #1 30%, 179 secs]  4 threads:     8071185 ops,   49307 (avg:   44850) ops/sec, 4.15GB/sec (avg: 4.00GB/sec), 19.99 (avg: 22.28) msec latency[RUN #1 30%, 180 secs]  4 threads:     8122879 ops,   51679 (avg:   44888) ops/sec, 4.28GB/sec (avg: 4.01GB/sec), 19.58 (avg: 22.27) msec latency[RUN #1 30%, 181 secs]  4 threads:     8170738 ops,   47841 (avg:   44904) ops/sec, 4.23GB/sec (avg: 4.01GB/sec), 20.74 (avg: 22.26) msec latency[RUN #1 30%, 182 secs]  4 threads:     8219594 ops,   48841 (avg:   44926) ops/sec, 4.11GB/sec (avg: 4.01GB/sec), 20.57 (avg: 22.25) msec latency[RUN #1 31%, 183 secs]  4 threads:     8261092 ops,   41484 (avg:   44907) ops/sec, 4.07GB/sec (avg: 4.01GB/sec), 23.52 (avg: 22.25) msec latency[RUN #1 31%, 184 secs]  4 threads:     8305304 ops,   44199 (avg:   44903) ops/sec, 4.18GB/sec (avg: 4.01GB/sec), 23.21 (avg: 22.26) msec latency[RUN #1 31%, 185 secs]  4 threads:     8347781 ops,   42466 (avg:   44890) ops/sec, 4.10GB/sec (avg: 4.01GB/sec), 23.37 (avg: 22.27) msec latency[RUN #1 31%, 186 secs]  4 threads:     8389481 ops,   41685 (avg:   44873) ops/sec, 4.18GB/sec (avg: 4.01GB/sec), 24.08 (avg: 22.27) msec latency[RUN #1 31%, 187 secs]  4 threads:     8431684 ops,   42188 (avg:   44859) ops/sec, 4.24GB/sec (avg: 4.01GB/sec), 23.76 (avg: 22.28) msec latency[RUN #1 31%, 188 secs]  4 threads:     8479489 ops,   47792 (avg:   44874) ops/sec, 4.19GB/sec (avg: 4.01GB/sec), 21.07 (avg: 22.27) msec latency[RUN #1 32%, 189 secs]  4 threads:     8528210 ops,   48709 (avg:   44894) ops/sec, 4.38GB/sec (avg: 4.01GB/sec), 20.33 (avg: 22.26) msec latency[RUN #1 32%, 190 secs]  4 threads:     8577908 ops,   49685 (avg:   44919) ops/sec, 4.26GB/sec (avg: 4.02GB/sec), 20.23 (avg: 22.25) msec latency[RUN #1 32%, 191 secs]  4 threads:     8625096 ops,   47172 (avg:   44931) ops/sec, 4.10GB/sec (avg: 4.02GB/sec), 21.05 (avg: 22.25) msec latency[RUN #1 32%, 192 secs]  4 threads:     8672869 ops,   47760 (avg:   44946) ops/sec, 4.05GB/sec (avg: 4.02GB/sec), 20.84 (avg: 22.24) msec latency[RUN #1 32%, 193 secs]  4 threads:     8718055 ops,   45171 (avg:   44947) ops/sec, 4.26GB/sec (avg: 4.02GB/sec), 22.25 (avg: 22.24) msec latency[RUN #1 32%, 194 secs]  4 threads:     8760715 ops,   42648 (avg:   44935) ops/sec, 4.27GB/sec (avg: 4.02GB/sec), 23.63 (avg: 22.24) msec latency[RUN #1 33%, 195 secs]  4 threads:     8812538 ops,   51808 (avg:   44970) ops/sec, 4.16GB/sec (avg: 4.02GB/sec), 19.30 (avg: 22.23) msec latency[RUN #1 33%, 196 secs]  4 threads:     8861697 ops,   49142 (avg:   44991) ops/sec, 4.21GB/sec (avg: 4.02GB/sec), 20.26 (avg: 22.22) msec latency[RUN #1 33%, 197 secs]  4 threads:     8908904 ops,   47187 (avg:   45003) ops/sec, 4.46GB/sec (avg: 4.02GB/sec), 21.32 (avg: 22.21) msec latency[RUN #1 33%, 198 secs]  4 threads:     8962274 ops,   53352 (avg:   45045) ops/sec, 4.07GB/sec (avg: 4.02GB/sec), 18.46 (avg: 22.19) msec latency[RUN #1 33%, 199 secs]  4 threads:     9011402 ops,   49113 (avg:   45065) ops/sec, 4.19GB/sec (avg: 4.02GB/sec), 20.47 (avg: 22.18) msec latency[RUN #1 33%, 200 secs]  4 threads:     9059825 ops,   48408 (avg:   45082) ops/sec, 4.18GB/sec (avg: 4.03GB/sec), 20.88 (avg: 22.17) msec latency[RUN #1 34%, 201 secs]  4 threads:     9111100 ops,   51259 (avg:   45112) ops/sec, 4.14GB/sec (avg: 4.03GB/sec), 19.19 (avg: 22.16) msec latency[RUN #1 34%, 202 secs]  4 threads:     9163959 ops,   52842 (avg:   45150) ops/sec, 4.18GB/sec (avg: 4.03GB/sec), 19.09 (avg: 22.14) msec latency[RUN #1 34%, 203 secs]  4 threads:     9213293 ops,   49319 (avg:   45171) ops/sec, 4.18GB/sec (avg: 4.03GB/sec), 20.07 (avg: 22.13) msec latency[RUN #1 34%, 204 secs]  4 threads:     9262532 ops,   49224 (avg:   45190) ops/sec, 4.06GB/sec (avg: 4.03GB/sec), 20.02 (avg: 22.12) msec latency[RUN #1 34%, 205 secs]  4 threads:     9308787 ops,   46241 (avg:   45196) ops/sec, 4.09GB/sec (avg: 4.03GB/sec), 21.49 (avg: 22.11) msec latency[RUN #1 34%, 206 secs]  4 threads:     9347549 ops,   38752 (avg:   45164) ops/sec, 4.09GB/sec (avg: 4.03GB/sec), 26.55 (avg: 22.13) msec latency[RUN #1 35%, 207 secs]  4 threads:     9388821 ops,   41258 (avg:   45146) ops/sec, 4.17GB/sec (avg: 4.03GB/sec), 24.02 (avg: 22.14) msec latency[RUN #1 35%, 208 secs]  4 threads:     9430464 ops,   41631 (avg:   45129) ops/sec, 4.16GB/sec (avg: 4.03GB/sec), 23.61 (avg: 22.15) msec latency[RUN #1 35%, 209 secs]  4 threads:     9476081 ops,   45604 (avg:   45131) ops/sec, 4.35GB/sec (avg: 4.03GB/sec), 22.59 (avg: 22.15) msec latency[RUN #1 35%, 210 secs]  4 threads:     9522343 ops,   46247 (avg:   45136) ops/sec, 4.27GB/sec (avg: 4.03GB/sec), 21.58 (avg: 22.15) msec latency[RUN #1 35%, 211 secs]  4 threads:     9570022 ops,   47666 (avg:   45148) ops/sec, 4.13GB/sec (avg: 4.03GB/sec), 20.51 (avg: 22.14) msec latency[RUN #1 35%, 212 secs]  4 threads:     9613288 ops,   43253 (avg:   45139) ops/sec, 3.68GB/sec (avg: 4.03GB/sec), 22.86 (avg: 22.14) msec latency[RUN #1 36%, 213 secs]  4 threads:     9653477 ops,   40178 (avg:   45116) ops/sec, 3.71GB/sec (avg: 4.03GB/sec), 25.82 (avg: 22.16) msec latency[RUN #1 36%, 214 secs]  4 threads:     9701075 ops,   47586 (avg:   45128) ops/sec, 4.20GB/sec (avg: 4.03GB/sec), 20.57 (avg: 22.15) msec latency[RUN #1 36%, 215 secs]  4 threads:     9748035 ops,   46946 (avg:   45136) ops/sec, 3.89GB/sec (avg: 4.03GB/sec), 21.18 (avg: 22.14) msec latency[RUN #1 36%, 216 secs]  4 threads:     9797602 ops,   49550 (avg:   45156) ops/sec, 4.02GB/sec (avg: 4.03GB/sec), 20.55 (avg: 22.14) msec latency[RUN #1 36%, 217 secs]  4 threads:     9839714 ops,   42098 (avg:   45142) ops/sec, 4.05GB/sec (avg: 4.03GB/sec), 23.70 (avg: 22.14) msec latency[RUN #1 36%, 218 secs]  4 threads:     9888474 ops,   48745 (avg:   45159) ops/sec, 4.08GB/sec (avg: 4.03GB/sec), 20.35 (avg: 22.13) msec latency[RUN #1 37%, 219 secs]  4 threads:     9941989 ops,   53496 (avg:   45197) ops/sec, 4.24GB/sec (avg: 4.03GB/sec), 18.83 (avg: 22.12) msec latency[RUN #1 37%, 220 secs]  4 threads:     9985569 ops,   43568 (avg:   45189) ops/sec, 4.20GB/sec (avg: 4.03GB/sec), 22.99 (avg: 22.12) msec latency[RUN #1 37%, 221 secs]  4 threads:    10027006 ops,   41425 (avg:   45172) ops/sec, 4.07GB/sec (avg: 4.03GB/sec), 23.85 (avg: 22.13) msec latency[RUN #1 37%, 222 secs]  4 threads:    10067128 ops,   40107 (avg:   45150) ops/sec, 4.29GB/sec (avg: 4.03GB/sec), 25.15 (avg: 22.14) msec latency[RUN #1 37%, 223 secs]  4 threads:    10118698 ops,   51551 (avg:   45178) ops/sec, 4.12GB/sec (avg: 4.03GB/sec), 19.54 (avg: 22.13) msec latency[RUN #1 37%, 224 secs]  4 threads:    10157534 ops,   38824 (avg:   45150) ops/sec, 4.17GB/sec (avg: 4.03GB/sec), 25.29 (avg: 22.14) msec latency[RUN #1 38%, 225 secs]  4 threads:    10198804 ops,   41258 (avg:   45133) ops/sec, 4.43GB/sec (avg: 4.04GB/sec), 24.67 (avg: 22.15) msec latency[RUN #1 38%, 226 secs]  4 threads:    10246365 ops,   47545 (avg:   45143) ops/sec, 4.21GB/sec (avg: 4.04GB/sec), 21.04 (avg: 22.14) msec latency[RUN #1 38%, 227 secs]  4 threads:    10291755 ops,   45377 (avg:   45145) ops/sec, 4.25GB/sec (avg: 4.04GB/sec), 22.07 (avg: 22.14) msec latency[RUN #1 38%, 228 secs]  4 threads:    10339830 ops,   48061 (avg:   45157) ops/sec, 4.14GB/sec (avg: 4.04GB/sec), 20.84 (avg: 22.14) msec latency[RUN #1 38%, 229 secs]  4 threads:    10382673 ops,   42830 (avg:   45147) ops/sec, 3.88GB/sec (avg: 4.04GB/sec), 23.28 (avg: 22.14) msec latency[RUN #1 38%, 230 secs]  4 threads:    10426853 ops,   44167 (avg:   45143) ops/sec, 4.13GB/sec (avg: 4.04GB/sec), 22.63 (avg: 22.14) msec latency[RUN #1 39%, 231 secs]  4 threads:    10472015 ops,   45146 (avg:   45143) ops/sec, 4.10GB/sec (avg: 4.04GB/sec), 22.00 (avg: 22.14) msec latency[RUN #1 39%, 232 secs]  4 threads:    10522793 ops,   50761 (avg:   45167) ops/sec, 3.98GB/sec (avg: 4.04GB/sec), 19.87 (avg: 22.13) msec latency[RUN #1 39%, 233 secs]  4 threads:    10567320 ops,   44513 (avg:   45164) ops/sec, 4.23GB/sec (avg: 4.04GB/sec), 22.15 (avg: 22.13) msec latency[RUN #1 39%, 234 secs]  4 threads:    10619509 ops,   52172 (avg:   45194) ops/sec, 4.35GB/sec (avg: 4.04GB/sec), 19.42 (avg: 22.12) msec latency[RUN #1 39%, 235 secs]  4 threads:    10664915 ops,   45395 (avg:   45195) ops/sec, 3.96GB/sec (avg: 4.04GB/sec), 21.62 (avg: 22.12) msec latency[RUN #1 39%, 236 secs]  4 threads:    10713557 ops,   48623 (avg:   45209) ops/sec, 3.99GB/sec (avg: 4.04GB/sec), 20.74 (avg: 22.11) msec latency[RUN #1 40%, 237 secs]  4 threads:    10760754 ops,   47185 (avg:   45218) ops/sec, 4.16GB/sec (avg: 4.04GB/sec), 21.33 (avg: 22.11) msec latency[RUN #1 40%, 238 secs]  4 threads:    10808079 ops,   47311 (avg:   45226) ops/sec, 4.08GB/sec (avg: 4.04GB/sec), 21.30 (avg: 22.10) msec latency[RUN #1 40%, 239 secs]  4 threads:    10857166 ops,   49072 (avg:   45242) ops/sec, 4.16GB/sec (avg: 4.04GB/sec), 20.10 (avg: 22.09) msec latency[RUN #1 40%, 240 secs]  4 threads:    10903927 ops,   46742 (avg:   45249) ops/sec, 4.05GB/sec (avg: 4.04GB/sec), 21.14 (avg: 22.09) msec latency[RUN #1 40%, 241 secs]  4 threads:    10947985 ops,   44041 (avg:   45244) ops/sec, 4.10GB/sec (avg: 4.04GB/sec), 22.46 (avg: 22.09) msec latency[RUN #1 40%, 242 secs]  4 threads:    10989864 ops,   41866 (avg:   45230) ops/sec, 4.14GB/sec (avg: 4.04GB/sec), 24.26 (avg: 22.10) msec latency[RUN #1 41%, 243 secs]  4 threads:    11033054 ops,   43176 (avg:   45221) ops/sec, 4.16GB/sec (avg: 4.04GB/sec), 23.18 (avg: 22.10) msec latency[RUN #1 41%, 244 secs]  4 threads:    11079751 ops,   46680 (avg:   45227) ops/sec, 4.23GB/sec (avg: 4.04GB/sec), 21.47 (avg: 22.10) msec latency[RUN #1 41%, 245 secs]  4 threads:    11125718 ops,   45953 (avg:   45230) ops/sec, 4.19GB/sec (avg: 4.04GB/sec), 21.92 (avg: 22.10) msec latency[RUN #1 41%, 246 secs]  4 threads:    11165593 ops,   39862 (avg:   45209) ops/sec, 4.11GB/sec (avg: 4.04GB/sec), 24.54 (avg: 22.11) msec latency[RUN #1 41%, 247 secs]  4 threads:    11212836 ops,   47231 (avg:   45217) ops/sec, 4.15GB/sec (avg: 4.04GB/sec), 21.60 (avg: 22.11) msec latency[RUN #1 41%, 248 secs]  4 threads:    11261266 ops,   48410 (avg:   45230) ops/sec, 4.05GB/sec (avg: 4.04GB/sec), 20.59 (avg: 22.10) msec latency[RUN #1 42%, 249 secs]  4 threads:    11308776 ops,   47491 (avg:   45239) ops/sec, 4.00GB/sec (avg: 4.04GB/sec), 21.27 (avg: 22.10) msec latency[RUN #1 42%, 250 secs]  4 threads:    11356139 ops,   47350 (avg:   45247) ops/sec, 4.07GB/sec (avg: 4.04GB/sec), 20.77 (avg: 22.09) msec latency[RUN #1 42%, 251 secs]  4 threads:    11402430 ops,   46238 (avg:   45251) ops/sec, 4.39GB/sec (avg: 4.04GB/sec), 22.06 (avg: 22.09) msec latency[RUN #1 42%, 252 secs]  4 threads:    11454370 ops,   51925 (avg:   45277) ops/sec, 4.07GB/sec (avg: 4.04GB/sec), 19.04 (avg: 22.08) msec latency[RUN #1 42%, 253 secs]  4 threads:    11503711 ops,   49325 (avg:   45293) ops/sec, 4.24GB/sec (avg: 4.05GB/sec), 20.45 (avg: 22.07) msec latency[RUN #1 42%, 254 secs]  4 threads:    11553088 ops,   49363 (avg:   45309) ops/sec, 4.23GB/sec (avg: 4.05GB/sec), 19.99 (avg: 22.06) msec latency[RUN #1 43%, 255 secs]  4 threads:    11599552 ops,   46450 (avg:   45314) ops/sec, 4.10GB/sec (avg: 4.05GB/sec), 21.29 (avg: 22.06) msec latency[RUN #1 43%, 256 secs]  4 threads:    11647042 ops,   47475 (avg:   45322) ops/sec, 4.18GB/sec (avg: 4.05GB/sec), 21.01 (avg: 22.05) msec latency[RUN #1 43%, 257 secs]  4 threads:    11690324 ops,   43270 (avg:   45314) ops/sec, 4.24GB/sec (avg: 4.05GB/sec), 23.29 (avg: 22.06) msec latency[RUN #1 43%, 258 secs]  4 threads:    11733872 ops,   43536 (avg:   45307) ops/sec, 4.12GB/sec (avg: 4.05GB/sec), 23.50 (avg: 22.06) msec latency[RUN #1 43%, 259 secs]  4 threads:    11786370 ops,   52482 (avg:   45335) ops/sec, 4.30GB/sec (avg: 4.05GB/sec), 18.73 (avg: 22.05) msec latency[RUN #1 43%, 260 secs]  4 threads:    11827055 ops,   40673 (avg:   45317) ops/sec, 4.04GB/sec (avg: 4.05GB/sec), 24.66 (avg: 22.06) msec latency[RUN #1 44%, 261 secs]  4 threads:    11869607 ops,   42539 (avg:   45306) ops/sec, 4.21GB/sec (avg: 4.05GB/sec), 23.40 (avg: 22.06) msec latency[RUN #1 44%, 262 secs]  4 threads:    11916686 ops,   47065 (avg:   45313) ops/sec, 4.28GB/sec (avg: 4.05GB/sec), 21.38 (avg: 22.06) msec latency[RUN #1 44%, 263 secs]  4 threads:    11959711 ops,   43013 (avg:   45304) ops/sec, 4.20GB/sec (avg: 4.05GB/sec), 23.03 (avg: 22.06) msec latency[RUN #1 44%, 264 secs]  4 threads:    11997802 ops,   38080 (avg:   45277) ops/sec, 4.27GB/sec (avg: 4.05GB/sec), 26.51 (avg: 22.08) msec latency[RUN #1 44%, 265 secs]  4 threads:    12040074 ops,   42260 (avg:   45266) ops/sec, 4.18GB/sec (avg: 4.05GB/sec), 23.75 (avg: 22.08) msec latency[RUN #1 44%, 266 secs]  4 threads:    12088742 ops,   48653 (avg:   45278) ops/sec, 4.16GB/sec (avg: 4.05GB/sec), 20.56 (avg: 22.08) msec latency[RUN #1 45%, 267 secs]  4 threads:    12134712 ops,   45950 (avg:   45281) ops/sec, 4.11GB/sec (avg: 4.05GB/sec), 21.65 (avg: 22.08) msec latency[RUN #1 45%, 268 secs]  4 threads:    12179467 ops,   44723 (avg:   45279) ops/sec, 4.44GB/sec (avg: 4.05GB/sec), 22.56 (avg: 22.08) msec latency[RUN #1 45%, 269 secs]  4 threads:    12223968 ops,   44489 (avg:   45276) ops/sec, 4.40GB/sec (avg: 4.06GB/sec), 22.33 (avg: 22.08) msec latency[RUN #1 45%, 270 secs]  4 threads:    12270977 ops,   46996 (avg:   45282) ops/sec, 4.28GB/sec (avg: 4.06GB/sec), 21.19 (avg: 22.08) msec latency[RUN #1 45%, 271 secs]  4 threads:    12316251 ops,   45262 (avg:   45282) ops/sec, 4.19GB/sec (avg: 4.06GB/sec), 22.18 (avg: 22.08) msec latency[RUN #1 45%, 272 secs]  4 threads:    12359533 ops,   43268 (avg:   45275) ops/sec, 4.26GB/sec (avg: 4.06GB/sec), 23.07 (avg: 22.08) msec latency[RUN #1 46%, 273 secs]  4 threads:    12404923 ops,   45374 (avg:   45275) ops/sec, 4.25GB/sec (avg: 4.06GB/sec), 21.19 (avg: 22.08) msec latency[RUN #1 46%, 274 secs]  4 threads:    12449409 ops,   44471 (avg:   45272) ops/sec, 3.94GB/sec (avg: 4.06GB/sec), 23.26 (avg: 22.08) msec latency[RUN #1 46%, 275 secs]  4 threads:    12503084 ops,   53661 (avg:   45303) ops/sec, 4.27GB/sec (avg: 4.06GB/sec), 18.85 (avg: 22.07) msec latency[RUN #1 46%, 276 secs]  4 threads:    12554370 ops,   51271 (avg:   45324) ops/sec, 4.15GB/sec (avg: 4.06GB/sec), 19.33 (avg: 22.05) msec latency[RUN #1 46%, 277 secs]  4 threads:    12599479 ops,   45096 (avg:   45323) ops/sec, 4.41GB/sec (avg: 4.06GB/sec), 21.98 (avg: 22.05) msec latency[RUN #1 46%, 278 secs]  4 threads:    12641733 ops,   42241 (avg:   45312) ops/sec, 3.82GB/sec (avg: 4.06GB/sec), 23.30 (avg: 22.06) msec latency[RUN #1 47%, 279 secs]  4 threads:    12692760 ops,   51017 (avg:   45333) ops/sec, 4.09GB/sec (avg: 4.06GB/sec), 19.93 (avg: 22.05) msec latency[RUN #1 47%, 280 secs]  4 threads:    12739518 ops,   46740 (avg:   45338) ops/sec, 3.93GB/sec (avg: 4.06GB/sec), 21.77 (avg: 22.05) msec latency[RUN #1 47%, 281 secs]  4 threads:    12783447 ops,   43916 (avg:   45333) ops/sec, 4.02GB/sec (avg: 4.06GB/sec), 22.45 (avg: 22.05) msec latency[RUN #1 47%, 282 secs]  4 threads:    12829312 ops,   45848 (avg:   45335) ops/sec, 4.05GB/sec (avg: 4.06GB/sec), 21.91 (avg: 22.05) msec latency[RUN #1 47%, 283 secs]  4 threads:    12875212 ops,   45888 (avg:   45336) ops/sec, 3.91GB/sec (avg: 4.06GB/sec), 21.34 (avg: 22.05) msec latency[RUN #1 47%, 284 secs]  4 threads:    12922439 ops,   47214 (avg:   45343) ops/sec, 4.03GB/sec (avg: 4.06GB/sec), 21.24 (avg: 22.04) msec latency[RUN #1 48%, 285 secs]  4 threads:    12968725 ops,   46271 (avg:   45346) ops/sec, 4.00GB/sec (avg: 4.06GB/sec), 21.84 (avg: 22.04) msec latency[RUN #1 48%, 286 secs]  4 threads:    13014581 ops,   45842 (avg:   45348) ops/sec, 4.13GB/sec (avg: 4.06GB/sec), 21.46 (avg: 22.04) msec latency[RUN #1 48%, 287 secs]  4 threads:    13057518 ops,   42924 (avg:   45340) ops/sec, 3.83GB/sec (avg: 4.06GB/sec), 22.90 (avg: 22.04) msec latency[RUN #1 48%, 288 secs]  4 threads:    13097809 ops,   40272 (avg:   45322) ops/sec, 3.67GB/sec (avg: 4.06GB/sec), 25.09 (avg: 22.05) msec latency[RUN #1 48%, 289 secs]  4 threads:    13136386 ops,   38564 (avg:   45299) ops/sec, 3.52GB/sec (avg: 4.05GB/sec), 26.63 (avg: 22.07) msec latency[RUN #1 48%, 290 secs]  4 threads:    13183836 ops,   47437 (avg:   45306) ops/sec, 3.99GB/sec (avg: 4.05GB/sec), 21.03 (avg: 22.06) msec latency[RUN #1 49%, 291 secs]  4 threads:    13227442 ops,   43592 (avg:   45300) ops/sec, 3.79GB/sec (avg: 4.05GB/sec), 23.17 (avg: 22.07) msec latency[RUN #1 49%, 292 secs]  4 threads:    13274336 ops,   46878 (avg:   45306) ops/sec, 3.94GB/sec (avg: 4.05GB/sec), 20.95 (avg: 22.06) msec latency[RUN #1 49%, 293 secs]  4 threads:    13321745 ops,   47396 (avg:   45313) ops/sec, 4.06GB/sec (avg: 4.05GB/sec), 21.09 (avg: 22.06) msec latency[RUN #1 49%, 294 secs]  4 threads:    13370083 ops,   48325 (avg:   45323) ops/sec, 3.99GB/sec (avg: 4.05GB/sec), 20.92 (avg: 22.06) msec latency[RUN #1 49%, 295 secs]  4 threads:    13416576 ops,   46481 (avg:   45327) ops/sec, 4.12GB/sec (avg: 4.05GB/sec), 21.59 (avg: 22.05) msec latency[RUN #1 49%, 296 secs]  4 threads:    13459816 ops,   43224 (avg:   45320) ops/sec, 3.81GB/sec (avg: 4.05GB/sec), 23.05 (avg: 22.06) msec latency[RUN #1 50%, 297 secs]  4 threads:    13500295 ops,   40464 (avg:   45304) ops/sec, 3.78GB/sec (avg: 4.05GB/sec), 24.55 (avg: 22.06) msec latency[RUN #1 50%, 298 secs]  4 threads:    13547546 ops,   47232 (avg:   45310) ops/sec, 3.99GB/sec (avg: 4.05GB/sec), 21.38 (avg: 22.06) msec latency[RUN #1 50%, 299 secs]  4 threads:    13594643 ops,   47081 (avg:   45316) ops/sec, 4.11GB/sec (avg: 4.05GB/sec), 21.09 (avg: 22.06) msec latency[RUN #1 50%, 300 secs]  4 threads:    13644171 ops,   49516 (avg:   45330) ops/sec, 4.21GB/sec (avg: 4.05GB/sec), 20.14 (avg: 22.05) msec latency[RUN #1 50%, 301 secs]  4 threads:    13688807 ops,   44623 (avg:   45327) ops/sec, 4.19GB/sec (avg: 4.05GB/sec), 22.66 (avg: 22.05) msec latency[RUN #1 50%, 302 secs]  4 threads:    13737594 ops,   48771 (avg:   45339) ops/sec, 4.14GB/sec (avg: 4.05GB/sec), 20.54 (avg: 22.05) msec latency[RUN #1 51%, 303 secs]  4 threads:    13786456 ops,   48851 (avg:   45350) ops/sec, 4.30GB/sec (avg: 4.05GB/sec), 20.41 (avg: 22.04) msec latency[RUN #1 51%, 304 secs]  4 threads:    13829594 ops,   43125 (avg:   45343) ops/sec, 4.04GB/sec (avg: 4.05GB/sec), 22.81 (avg: 22.05) msec latency[RUN #1 51%, 305 secs]  4 threads:    13871976 ops,   42368 (avg:   45333) ops/sec, 4.09GB/sec (avg: 4.05GB/sec), 23.81 (avg: 22.05) msec latency[RUN #1 51%, 306 secs]  4 threads:    13915820 ops,   43835 (avg:   45328) ops/sec, 4.03GB/sec (avg: 4.05GB/sec), 22.85 (avg: 22.05) msec latency[RUN #1 51%, 307 secs]  4 threads:    13963503 ops,   47667 (avg:   45336) ops/sec, 3.91GB/sec (avg: 4.05GB/sec), 20.92 (avg: 22.05) msec latency[RUN #1 51%, 308 secs]  4 threads:    14008594 ops,   45079 (avg:   45335) ops/sec, 3.84GB/sec (avg: 4.05GB/sec), 21.99 (avg: 22.05) msec latency[RUN #1 52%, 309 secs]  4 threads:    14047778 ops,   39171 (avg:   45315) ops/sec, 4.16GB/sec (avg: 4.05GB/sec), 25.68 (avg: 22.06) msec latency[RUN #1 52%, 310 secs]  4 threads:    14089581 ops,   41792 (avg:   45304) ops/sec, 3.98GB/sec (avg: 4.05GB/sec), 23.85 (avg: 22.06) msec latency[RUN #1 52%, 311 secs]  4 threads:    14133926 ops,   44333 (avg:   45301) ops/sec, 4.11GB/sec (avg: 4.05GB/sec), 22.59 (avg: 22.07) msec latency[RUN #1 52%, 312 secs]  4 threads:    14181112 ops,   47173 (avg:   45307) ops/sec, 4.04GB/sec (avg: 4.05GB/sec), 21.21 (avg: 22.06) msec latency[RUN #1 52%, 313 secs]  4 threads:    14225226 ops,   44099 (avg:   45303) ops/sec, 4.01GB/sec (avg: 4.05GB/sec), 22.55 (avg: 22.06) msec latency[RUN #1 52%, 314 secs]  4 threads:    14266945 ops,   41710 (avg:   45292) ops/sec, 4.03GB/sec (avg: 4.05GB/sec), 23.60 (avg: 22.07) msec latency[RUN #1 53%, 315 secs]  4 threads:    14310066 ops,   43107 (avg:   45285) ops/sec, 3.88GB/sec (avg: 4.05GB/sec), 23.49 (avg: 22.07) msec latency[RUN #1 53%, 316 secs]  4 threads:    14354938 ops,   44856 (avg:   45283) ops/sec, 4.02GB/sec (avg: 4.05GB/sec), 22.31 (avg: 22.07) msec latency[RUN #1 53%, 317 secs]  4 threads:    14402603 ops,   47652 (avg:   45291) ops/sec, 4.22GB/sec (avg: 4.05GB/sec), 21.34 (avg: 22.07) msec latency[RUN #1 53%, 318 secs]  4 threads:    14443389 ops,   40772 (avg:   45277) ops/sec, 4.03GB/sec (avg: 4.05GB/sec), 24.01 (avg: 22.08) msec latency[RUN #1 53%, 319 secs]  4 threads:    14482735 ops,   39334 (avg:   45258) ops/sec, 3.94GB/sec (avg: 4.05GB/sec), 25.83 (avg: 22.09) msec latency[RUN #1 53%, 320 secs]  4 threads:    14524659 ops,   41913 (avg:   45248) ops/sec, 3.86GB/sec (avg: 4.05GB/sec), 23.20 (avg: 22.09) msec latency[RUN #1 54%, 322 secs]  4 threads:    14569205 ops,   44531 (avg:   45245) ops/sec, 4.24GB/sec (avg: 4.05GB/sec), 23.05 (avg: 22.09) msec latency[RUN #1 54%, 323 secs]  4 threads:    14612031 ops,   42815 (avg:   45238) ops/sec, 3.86GB/sec (avg: 4.05GB/sec), 22.92 (avg: 22.10) msec latency[RUN #1 54%, 324 secs]  4 threads:    14650628 ops,   38584 (avg:   45217) ops/sec, 4.15GB/sec (avg: 4.05GB/sec), 26.15 (avg: 22.11) msec latency[RUN #1 54%, 325 secs]  4 threads:    14695814 ops,   45175 (avg:   45217) ops/sec, 4.10GB/sec (avg: 4.05GB/sec), 22.04 (avg: 22.11) msec latency[RUN #1 54%, 326 secs]  4 threads:    14735930 ops,   40105 (avg:   45202) ops/sec, 3.94GB/sec (avg: 4.05GB/sec), 24.96 (avg: 22.11) msec latency[RUN #1 55%, 327 secs]  4 threads:    14788409 ops,   52458 (avg:   45224) ops/sec, 3.87GB/sec (avg: 4.05GB/sec), 19.17 (avg: 22.10) msec latency[RUN #1 55%, 328 secs]  4 threads:    14833682 ops,   45254 (avg:   45224) ops/sec, 4.02GB/sec (avg: 4.05GB/sec), 22.10 (avg: 22.10) msec latency[RUN #1 55%, 329 secs]  4 threads:    14881553 ops,   47860 (avg:   45232) ops/sec, 3.95GB/sec (avg: 4.05GB/sec), 21.16 (avg: 22.10) msec latency[RUN #1 55%, 330 secs]  4 threads:    14922643 ops,   41075 (avg:   45219) ops/sec, 3.69GB/sec (avg: 4.05GB/sec), 23.50 (avg: 22.10) msec latency[RUN #1 55%, 331 secs]  4 threads:    14962581 ops,   39925 (avg:   45203) ops/sec, 4.02GB/sec (avg: 4.05GB/sec), 25.55 (avg: 22.11) msec latency[RUN #1 55%, 332 secs]  4 threads:    15002232 ops,   39642 (avg:   45187) ops/sec, 3.73GB/sec (avg: 4.05GB/sec), 24.27 (avg: 22.12) msec latency[RUN #1 56%, 333 secs]  4 threads:    15045377 ops,   43132 (avg:   45180) ops/sec, 3.79GB/sec (avg: 4.05GB/sec), 24.17 (avg: 22.13) msec latency[RUN #1 56%, 334 secs]  4 threads:    15088269 ops,   42879 (avg:   45173) ops/sec, 3.92GB/sec (avg: 4.05GB/sec), 23.01 (avg: 22.13) msec latency[RUN #1 56%, 335 secs]  4 threads:    15135399 ops,   47116 (avg:   45179) ops/sec, 3.95GB/sec (avg: 4.05GB/sec), 21.37 (avg: 22.13) msec latency[RUN #1 56%, 336 secs]  4 threads:    15171664 ops,   36251 (avg:   45153) ops/sec, 3.90GB/sec (avg: 4.05GB/sec), 27.38 (avg: 22.14) msec latency[RUN #1 56%, 337 secs]  4 threads:    15210277 ops,   38603 (avg:   45133) ops/sec, 3.87GB/sec (avg: 4.05GB/sec), 25.60 (avg: 22.15) msec latency[RUN #1 56%, 338 secs]  4 threads:    15257268 ops,   46978 (avg:   45139) ops/sec, 4.11GB/sec (avg: 4.05GB/sec), 22.06 (avg: 22.15) msec latency[RUN #1 57%, 339 secs]  4 threads:    15303076 ops,   45791 (avg:   45141) ops/sec, 4.02GB/sec (avg: 4.05GB/sec), 21.38 (avg: 22.14) msec latency[RUN #1 57%, 340 secs]  4 threads:    15354917 ops,   51827 (avg:   45160) ops/sec, 4.05GB/sec (avg: 4.05GB/sec), 19.78 (avg: 22.14) msec latency[RUN #1 57%, 341 secs]  4 threads:    15398711 ops,   43781 (avg:   45156) ops/sec, 4.08GB/sec (avg: 4.05GB/sec), 22.68 (avg: 22.14) msec latency[RUN #1 57%, 342 secs]  4 threads:    15441224 ops,   42500 (avg:   45148) ops/sec, 4.03GB/sec (avg: 4.05GB/sec), 23.05 (avg: 22.14) msec latency[RUN #1 57%, 343 secs]  4 threads:    15481229 ops,   39992 (avg:   45133) ops/sec, 3.87GB/sec (avg: 4.05GB/sec), 24.98 (avg: 22.15) msec latency[RUN #1 57%, 344 secs]  4 threads:    15515909 ops,   34673 (avg:   45103) ops/sec, 3.86GB/sec (avg: 4.04GB/sec), 28.44 (avg: 22.16) msec latency[RUN #1 58%, 345 secs]  4 threads:    15555850 ops,   39926 (avg:   45088) ops/sec, 3.68GB/sec (avg: 4.04GB/sec), 25.10 (avg: 22.17) msec latency[RUN #1 58%, 346 secs]  4 threads:    15596225 ops,   40367 (avg:   45074) ops/sec, 3.67GB/sec (avg: 4.04GB/sec), 25.00 (avg: 22.18) msec latency[RUN #1 58%, 347 secs]  4 threads:    15640149 ops,   43911 (avg:   45071) ops/sec, 3.72GB/sec (avg: 4.04GB/sec), 23.11 (avg: 22.18) msec latency[RUN #1 58%, 348 secs]  4 threads:    15683808 ops,   43594 (avg:   45067) ops/sec, 3.90GB/sec (avg: 4.04GB/sec), 22.79 (avg: 22.18) msec latency[RUN #1 58%, 349 secs]  4 threads:    15722619 ops,   38678 (avg:   45048) ops/sec, 3.97GB/sec (avg: 4.04GB/sec), 25.86 (avg: 22.19) msec latency[RUN #1 58%, 350 secs]  4 threads:    15770188 ops,   47556 (avg:   45056) ops/sec, 3.91GB/sec (avg: 4.04GB/sec), 20.91 (avg: 22.19) msec latency[RUN #1 59%, 351 secs]  4 threads:    15809776 ops,   39577 (avg:   45040) ops/sec, 3.83GB/sec (avg: 4.04GB/sec), 25.53 (avg: 22.19) msec latency[RUN #1 59%, 352 secs]  4 threads:    15855902 ops,   46111 (avg:   45043) ops/sec, 3.83GB/sec (avg: 4.04GB/sec), 21.74 (avg: 22.19) msec latency[RUN #1 59%, 353 secs]  4 threads:    15898998 ops,   43083 (avg:   45037) ops/sec, 3.88GB/sec (avg: 4.04GB/sec), 22.91 (avg: 22.20) msec latency[RUN #1 59%, 354 secs]  4 threads:    15942116 ops,   43108 (avg:   45032) ops/sec, 3.91GB/sec (avg: 4.04GB/sec), 23.15 (avg: 22.20) msec latency[RUN #1 59%, 355 secs]  4 threads:    15983009 ops,   40881 (avg:   45020) ops/sec, 3.90GB/sec (avg: 4.04GB/sec), 24.32 (avg: 22.20) msec latency[RUN #1 59%, 356 secs]  4 threads:    16026056 ops,   43033 (avg:   45015) ops/sec, 3.95GB/sec (avg: 4.04GB/sec), 23.58 (avg: 22.21) msec latency[RUN #1 60%, 357 secs]  4 threads:    16067887 ops,   41820 (avg:   45006) ops/sec, 3.88GB/sec (avg: 4.04GB/sec), 23.96 (avg: 22.21) msec latency[RUN #1 60%, 358 secs]  4 threads:    16109778 ops,   41878 (avg:   44997) ops/sec, 3.98GB/sec (avg: 4.04GB/sec), 23.86 (avg: 22.22) msec latency[RUN #1 60%, 359 secs]  4 threads:    16150291 ops,   40503 (avg:   44984) ops/sec, 3.95GB/sec (avg: 4.04GB/sec), 24.72 (avg: 22.22) msec latency[RUN #1 60%, 360 secs]  4 threads:    16197186 ops,   46884 (avg:   44990) ops/sec, 3.86GB/sec (avg: 4.04GB/sec), 21.31 (avg: 22.22) msec latency[RUN #1 60%, 361 secs]  4 threads:    16240851 ops,   43637 (avg:   44986) ops/sec, 3.82GB/sec (avg: 4.04GB/sec), 22.55 (avg: 22.22) msec latency[RUN #1 60%, 362 secs]  4 threads:    16286082 ops,   45207 (avg:   44987) ops/sec, 3.63GB/sec (avg: 4.03GB/sec), 22.40 (avg: 22.22) msec latency[RUN #1 61%, 363 secs]  4 threads:    16326042 ops,   39945 (avg:   44973) ops/sec, 3.83GB/sec (avg: 4.03GB/sec), 24.55 (avg: 22.23) msec latency[RUN #1 61%, 364 secs]  4 threads:    16365817 ops,   39767 (avg:   44958) ops/sec, 3.97GB/sec (avg: 4.03GB/sec), 25.70 (avg: 22.24) msec latency[RUN #1 61%, 365 secs]  4 threads:    16403725 ops,   37892 (avg:   44939) ops/sec, 3.51GB/sec (avg: 4.03GB/sec), 25.89 (avg: 22.24) msec latency[RUN #1 61%, 366 secs]  4 threads:    16447774 ops,   44036 (avg:   44937) ops/sec, 3.44GB/sec (avg: 4.03GB/sec), 22.38 (avg: 22.24) msec latency[RUN #1 61%, 367 secs]  4 threads:    16488798 ops,   41006 (avg:   44926) ops/sec, 3.50GB/sec (avg: 4.03GB/sec), 24.79 (avg: 22.25) msec latency[RUN #1 61%, 368 secs]  4 threads:    16526804 ops,   37991 (avg:   44907) ops/sec, 3.52GB/sec (avg: 4.03GB/sec), 26.61 (avg: 22.26) msec latency[RUN #1 62%, 369 secs]  4 threads:    16561969 ops,   35156 (avg:   44881) ops/sec, 3.46GB/sec (avg: 4.03GB/sec), 28.17 (avg: 22.27) msec latency[RUN #1 62%, 370 secs]  4 threads:    16597463 ops,   35482 (avg:   44855) ops/sec, 3.42GB/sec (avg: 4.02GB/sec), 27.92 (avg: 22.28) msec latency[RUN #1 62%, 371 secs]  4 threads:    16630871 ops,   33395 (avg:   44824) ops/sec, 3.49GB/sec (avg: 4.02GB/sec), 30.29 (avg: 22.30) msec latency[RUN #1 62%, 372 secs]  4 threads:    16669055 ops,   38174 (avg:   44806) ops/sec, 3.39GB/sec (avg: 4.02GB/sec), 26.33 (avg: 22.31) msec latency[RUN #1 62%, 373 secs]  4 threads:    16712967 ops,   43897 (avg:   44804) ops/sec, 3.59GB/sec (avg: 4.02GB/sec), 22.43 (avg: 22.31) msec latency[RUN #1 62%, 374 secs]  4 threads:    16754006 ops,   41029 (avg:   44794) ops/sec, 3.85GB/sec (avg: 4.02GB/sec), 24.85 (avg: 22.32) msec latency[RUN #1 63%, 375 secs]  4 threads:    16795952 ops,   41932 (avg:   44786) ops/sec, 3.68GB/sec (avg: 4.02GB/sec), 22.87 (avg: 22.32) msec latency[RUN #1 63%, 376 secs]  4 threads:    16837392 ops,   41428 (avg:   44777) ops/sec, 3.69GB/sec (avg: 4.02GB/sec), 24.78 (avg: 22.32) msec latency[RUN #1 63%, 377 secs]  4 threads:    16877802 ops,   40399 (avg:   44766) ops/sec, 3.85GB/sec (avg: 4.02GB/sec), 24.89 (avg: 22.33) msec latency[RUN #1 63%, 378 secs]  4 threads:    16921157 ops,   43343 (avg:   44762) ops/sec, 3.82GB/sec (avg: 4.02GB/sec), 23.19 (avg: 22.33) msec latency[RUN #1 63%, 379 secs]  4 threads:    16967603 ops,   46431 (avg:   44766) ops/sec, 4.07GB/sec (avg: 4.02GB/sec), 21.42 (avg: 22.33) msec latency[RUN #1 63%, 380 secs]  4 threads:    17011387 ops,   43760 (avg:   44764) ops/sec, 3.99GB/sec (avg: 4.02GB/sec), 22.60 (avg: 22.33) msec latency[RUN #1 64%, 381 secs]  4 threads:    17052750 ops,   41348 (avg:   44755) ops/sec, 3.73GB/sec (avg: 4.02GB/sec), 24.40 (avg: 22.34) msec latency[RUN #1 64%, 382 secs]  4 threads:    17095901 ops,   43141 (avg:   44750) ops/sec, 3.66GB/sec (avg: 4.02GB/sec), 23.42 (avg: 22.34) msec latency[RUN #1 64%, 383 secs]  4 threads:    17137279 ops,   41366 (avg:   44742) ops/sec, 3.87GB/sec (avg: 4.02GB/sec), 24.17 (avg: 22.34) msec latency[RUN #1 64%, 384 secs]  4 threads:    17179866 ops,   42576 (avg:   44736) ops/sec, 3.94GB/sec (avg: 4.02GB/sec), 23.60 (avg: 22.35) msec latency[RUN #1 64%, 385 secs]  4 threads:    17222277 ops,   42389 (avg:   44730) ops/sec, 3.53GB/sec (avg: 4.01GB/sec), 23.37 (avg: 22.35) msec latency[RUN #1 64%, 386 secs]  4 threads:    17263266 ops,   40975 (avg:   44720) ops/sec, 3.30GB/sec (avg: 4.01GB/sec), 24.35 (avg: 22.35) msec latency[RUN #1 65%, 387 secs]  4 threads:    17306653 ops,   43375 (avg:   44717) ops/sec, 3.97GB/sec (avg: 4.01GB/sec), 23.30 (avg: 22.36) msec latency[RUN #1 65%, 388 secs]  4 threads:    17349907 ops,   43242 (avg:   44713) ops/sec, 4.05GB/sec (avg: 4.01GB/sec), 23.22 (avg: 22.36) msec latency[RUN #1 65%, 389 secs]  4 threads:    17398852 ops,   48929 (avg:   44724) ops/sec, 3.98GB/sec (avg: 4.01GB/sec), 20.30 (avg: 22.35) msec latency[RUN #1 65%, 390 secs]  4 threads:    17446877 ops,   48014 (avg:   44732) ops/sec, 3.95GB/sec (avg: 4.01GB/sec), 21.07 (avg: 22.35) msec latency[RUN #1 65%, 391 secs]  4 threads:    17492185 ops,   45294 (avg:   44734) ops/sec, 4.03GB/sec (avg: 4.01GB/sec), 21.67 (avg: 22.35) msec latency[RUN #1 65%, 392 secs]  4 threads:    17537210 ops,   45010 (avg:   44734) ops/sec, 4.14GB/sec (avg: 4.01GB/sec), 22.22 (avg: 22.35) msec latency[RUN #1 66%, 393 secs]  4 threads:    17581527 ops,   44304 (avg:   44733) ops/sec, 3.96GB/sec (avg: 4.01GB/sec), 22.61 (avg: 22.35) msec latency[RUN #1 66%, 394 secs]  4 threads:    17624410 ops,   42872 (avg:   44729) ops/sec, 4.09GB/sec (avg: 4.01GB/sec), 23.44 (avg: 22.35) msec latency[RUN #1 66%, 395 secs]  4 threads:    17669645 ops,   45220 (avg:   44730) ops/sec, 3.99GB/sec (avg: 4.01GB/sec), 21.97 (avg: 22.35) msec latency[RUN #1 66%, 396 secs]  4 threads:    17720153 ops,   50493 (avg:   44744) ops/sec, 3.90GB/sec (avg: 4.01GB/sec), 20.03 (avg: 22.34) msec latency[RUN #1 66%, 397 secs]  4 threads:    17765281 ops,   45110 (avg:   44745) ops/sec, 4.02GB/sec (avg: 4.01GB/sec), 21.82 (avg: 22.34) msec latency[RUN #1 66%, 398 secs]  4 threads:    17811493 ops,   46200 (avg:   44749) ops/sec, 4.20GB/sec (avg: 4.01GB/sec), 21.90 (avg: 22.34) msec latency[RUN #1 67%, 399 secs]  4 threads:    17856925 ops,   45418 (avg:   44751) ops/sec, 3.84GB/sec (avg: 4.01GB/sec), 21.82 (avg: 22.34) msec latency[RUN #1 67%, 400 secs]  4 threads:    17906100 ops,   49157 (avg:   44762) ops/sec, 3.93GB/sec (avg: 4.01GB/sec), 20.26 (avg: 22.33) msec latency[RUN #1 67%, 401 secs]  4 threads:    17948294 ops,   42185 (avg:   44755) ops/sec, 4.04GB/sec (avg: 4.01GB/sec), 23.73 (avg: 22.34) msec latency[RUN #1 67%, 402 secs]  4 threads:    17990497 ops,   42189 (avg:   44749) ops/sec, 3.87GB/sec (avg: 4.01GB/sec), 23.56 (avg: 22.34) msec latency[RUN #1 67%, 403 secs]  4 threads:    18031368 ops,   40857 (avg:   44739) ops/sec, 3.96GB/sec (avg: 4.01GB/sec), 24.48 (avg: 22.34) msec latency[RUN #1 67%, 404 secs]  4 threads:    18077587 ops,   46210 (avg:   44743) ops/sec, 4.01GB/sec (avg: 4.01GB/sec), 22.03 (avg: 22.34) msec latency[RUN #1 68%, 405 secs]  4 threads:    18129896 ops,   52293 (avg:   44761) ops/sec, 4.06GB/sec (avg: 4.01GB/sec), 19.15 (avg: 22.33) msec latency[RUN #1 68%, 406 secs]  4 threads:    18172942 ops,   43032 (avg:   44757) ops/sec, 3.83GB/sec (avg: 4.01GB/sec), 22.91 (avg: 22.33) msec latency[RUN #1 68%, 407 secs]  4 threads:    18212276 ops,   39326 (avg:   44744) ops/sec, 3.82GB/sec (avg: 4.01GB/sec), 25.34 (avg: 22.34) msec latency[RUN #1 68%, 408 secs]  4 threads:    18253509 ops,   41217 (avg:   44735) ops/sec, 4.16GB/sec (avg: 4.01GB/sec), 24.87 (avg: 22.35) msec latency[RUN #1 68%, 409 secs]  4 threads:    18295109 ops,   41589 (avg:   44727) ops/sec, 3.92GB/sec (avg: 4.01GB/sec), 23.65 (avg: 22.35) msec latency[RUN #1 68%, 410 secs]  4 threads:    18338804 ops,   43682 (avg:   44725) ops/sec, 3.91GB/sec (avg: 4.01GB/sec), 22.73 (avg: 22.35) msec latency[RUN #1 69%, 411 secs]  4 threads:    18383115 ops,   44299 (avg:   44724) ops/sec, 3.81GB/sec (avg: 4.01GB/sec), 22.42 (avg: 22.35) msec latency[RUN #1 69%, 412 secs]  4 threads:    18422265 ops,   39138 (avg:   44710) ops/sec, 3.84GB/sec (avg: 4.01GB/sec), 25.69 (avg: 22.36) msec latency[RUN #1 69%, 413 secs]  4 threads:    18468958 ops,   46678 (avg:   44715) ops/sec, 4.07GB/sec (avg: 4.01GB/sec), 21.71 (avg: 22.36) msec latency[RUN #1 69%, 414 secs]  4 threads:    18506385 ops,   37415 (avg:   44697) ops/sec, 3.61GB/sec (avg: 4.01GB/sec), 25.79 (avg: 22.36) msec latency[RUN #1 69%, 415 secs]  4 threads:    18548567 ops,   42167 (avg:   44691) ops/sec, 3.90GB/sec (avg: 4.01GB/sec), 24.44 (avg: 22.37) msec latency[RUN #1 69%, 416 secs]  4 threads:    18594427 ops,   45849 (avg:   44694) ops/sec, 3.82GB/sec (avg: 4.01GB/sec), 21.55 (avg: 22.37) msec latency[RUN #1 70%, 417 secs]  4 threads:    18638305 ops,   43859 (avg:   44692) ops/sec, 3.75GB/sec (avg: 4.01GB/sec), 22.77 (avg: 22.37) msec latency[RUN #1 70%, 418 secs]  4 threads:    18678753 ops,   40440 (avg:   44682) ops/sec, 3.89GB/sec (avg: 4.01GB/sec), 24.72 (avg: 22.37) msec latency[RUN #1 70%, 419 secs]  4 threads:    18719690 ops,   40925 (avg:   44673) ops/sec, 4.01GB/sec (avg: 4.01GB/sec), 24.58 (avg: 22.38) msec latency[RUN #1 70%, 420 secs]  4 threads:    18739856 ops,   15394 (avg:   44582) ops/sec, 1.22GB/sec (avg: 4.00GB/sec), 13.70 (avg: 22.37) msec latency[RUN #1 70%, 421 secs]  4 threads:    18787840 ops,   47968 (avg:   44590) ops/sec, 3.98GB/sec (avg: 4.00GB/sec), 35.83 (avg: 22.40) msec latency[RUN #1 70%, 422 secs]  4 threads:    18828970 ops,   27873 (avg:   44531) ops/sec, 2.43GB/sec (avg: 3.99GB/sec), 12.93 (avg: 22.38) msec latency[RUN #1 71%, 423 secs]  4 threads:    18864126 ops,   35145 (avg:   44509) ops/sec, 2.75GB/sec (avg: 3.99GB/sec), 63.53 (avg: 22.46) msec latency[RUN #1 71%, 424 secs]  4 threads:    18906477 ops,   42334 (avg:   44504) ops/sec, 4.09GB/sec (avg: 3.99GB/sec), 23.98 (avg: 22.46) msec latency[RUN #1 71%, 425 secs]  4 threads:    18945745 ops,   39257 (avg:   44492) ops/sec, 4.00GB/sec (avg: 3.99GB/sec), 25.78 (avg: 22.47) msec latency[RUN #1 71%, 426 secs]  4 threads:    18988790 ops,   43028 (avg:   44488) ops/sec, 4.15GB/sec (avg: 3.99GB/sec), 23.77 (avg: 22.47) msec latency[RUN #1 71%, 427 secs]  4 threads:    19043692 ops,   54880 (avg:   44513) ops/sec, 4.14GB/sec (avg: 3.99GB/sec), 18.22 (avg: 22.46) msec latency[RUN #1 71%, 428 secs]  4 threads:    19088272 ops,   44568 (avg:   44513) ops/sec, 3.84GB/sec (avg: 3.99GB/sec), 21.61 (avg: 22.46) msec latency[RUN #1 72%, 429 secs]  4 threads:    19130723 ops,   42437 (avg:   44508) ops/sec, 4.08GB/sec (avg: 3.99GB/sec), 23.77 (avg: 22.46) msec latency[RUN #1 72%, 430 secs]  4 threads:    19177512 ops,   46775 (avg:   44513) ops/sec, 4.10GB/sec (avg: 3.99GB/sec), 21.37 (avg: 22.46) msec latency[RUN #1 72%, 431 secs]  4 threads:    19219677 ops,   42152 (avg:   44508) ops/sec, 3.93GB/sec (avg: 3.99GB/sec), 23.71 (avg: 22.46) msec latency[RUN #1 72%, 432 secs]  4 threads:    19268296 ops,   48603 (avg:   44517) ops/sec, 4.06GB/sec (avg: 3.99GB/sec), 20.83 (avg: 22.46) msec latency[RUN #1 72%, 433 secs]  4 threads:    19319030 ops,   50721 (avg:   44532) ops/sec, 4.12GB/sec (avg: 3.99GB/sec), 19.82 (avg: 22.45) msec latency[RUN #1 72%, 434 secs]  4 threads:    19362264 ops,   43224 (avg:   44529) ops/sec, 3.97GB/sec (avg: 3.99GB/sec), 23.08 (avg: 22.45) msec latency[RUN #1 73%, 435 secs]  4 threads:    19408831 ops,   46553 (avg:   44533) ops/sec, 4.03GB/sec (avg: 3.99GB/sec), 21.28 (avg: 22.45) msec latency[RUN #1 73%, 436 secs]  4 threads:    19450846 ops,   42001 (avg:   44527) ops/sec, 3.94GB/sec (avg: 3.99GB/sec), 23.34 (avg: 22.45) msec latency[RUN #1 73%, 439 secs]  4 threads:    19501586 ops,   22043 (avg:   44410) ops/sec, 1.90GB/sec (avg: 3.98GB/sec), 29.37 (avg: 22.47) msec latency[RUN #1 73%, 440 secs]  4 threads:    19543303 ops,   41704 (avg:   44403) ops/sec, 4.12GB/sec (avg: 3.98GB/sec), 43.96 (avg: 22.51) msec latency[RUN #1 74%, 441 secs]  4 threads:    19586694 ops,   43381 (avg:   44401) ops/sec, 3.93GB/sec (avg: 3.98GB/sec), 22.92 (avg: 22.51) msec latency[RUN #1 74%, 442 secs]  4 threads:    19629513 ops,   42802 (avg:   44397) ops/sec, 3.92GB/sec (avg: 3.98GB/sec), 23.74 (avg: 22.52) msec latency[RUN #1 74%, 443 secs]  4 threads:    19678701 ops,   49175 (avg:   44408) ops/sec, 4.08GB/sec (avg: 3.98GB/sec), 19.92 (avg: 22.51) msec latency[RUN #1 74%, 444 secs]  4 threads:    19719928 ops,   41216 (avg:   44401) ops/sec, 3.90GB/sec (avg: 3.98GB/sec), 24.33 (avg: 22.51) msec latency[RUN #1 74%, 445 secs]  4 threads:    19766221 ops,   46276 (avg:   44405) ops/sec, 4.19GB/sec (avg: 3.98GB/sec), 22.01 (avg: 22.51) msec latency[RUN #1 74%, 446 secs]  4 threads:    19810150 ops,   43919 (avg:   44404) ops/sec, 3.97GB/sec (avg: 3.98GB/sec), 22.10 (avg: 22.51) msec latency[RUN #1 75%, 447 secs]  4 threads:    19854156 ops,   43994 (avg:   44403) ops/sec, 3.95GB/sec (avg: 3.98GB/sec), 23.29 (avg: 22.51) msec latency[RUN #1 75%, 448 secs]  4 threads:    19856847 ops,    2690 (avg:   44310) ops/sec, 188.01MB/sec (avg: 3.97GB/sec), 56.84 (avg: 22.52) msec latency[RUN #1 75%, 449 secs]  4 threads:    19883868 ops,   27012 (avg:   44272) ops/sec, 2.44GB/sec (avg: 3.97GB/sec), 68.60 (avg: 22.58) msec latency[RUN #1 75%, 450 secs]  4 threads:    19930044 ops,   46164 (avg:   44276) ops/sec, 4.12GB/sec (avg: 3.97GB/sec), 21.48 (avg: 22.58) msec latency[RUN #1 75%, 451 secs]  4 threads:    19973201 ops,   43145 (avg:   44273) ops/sec, 3.99GB/sec (avg: 3.97GB/sec), 22.70 (avg: 22.58) msec latency[RUN #1 75%, 452 secs]  4 threads:    20023989 ops,   50770 (avg:   44288) ops/sec, 4.18GB/sec (avg: 3.97GB/sec), 20.28 (avg: 22.57) msec latency[RUN #1 76%, 453 secs]  4 threads:    20071772 ops,   47769 (avg:   44295) ops/sec, 4.09GB/sec (avg: 3.97GB/sec), 20.62 (avg: 22.57) msec latency[RUN #1 76%, 454 secs]  4 threads:    20115061 ops,   43275 (avg:   44293) ops/sec, 4.05GB/sec (avg: 3.97GB/sec), 23.00 (avg: 22.57) msec latency[RUN #1 76%, 455 secs]  4 threads:    20156284 ops,   41216 (avg:   44286) ops/sec, 4.05GB/sec (avg: 3.97GB/sec), 24.13 (avg: 22.57) msec latency[RUN #1 76%, 456 secs]  4 threads:    20198217 ops,   41916 (avg:   44281) ops/sec, 4.16GB/sec (avg: 3.97GB/sec), 24.34 (avg: 22.58) msec latency[RUN #1 76%, 457 secs]  4 threads:    20245389 ops,   47161 (avg:   44287) ops/sec, 3.96GB/sec (avg: 3.97GB/sec), 20.76 (avg: 22.57) msec latency[RUN #1 76%, 458 secs]  4 threads:    20291390 ops,   45989 (avg:   44291) ops/sec, 3.98GB/sec (avg: 3.97GB/sec), 22.13 (avg: 22.57) msec latency[RUN #1 77%, 459 secs]  4 threads:    20337992 ops,   46560 (avg:   44296) ops/sec, 4.09GB/sec (avg: 3.97GB/sec), 21.25 (avg: 22.57) msec latency[RUN #1 77%, 460 secs]  4 threads:    20387022 ops,   49014 (avg:   44306) ops/sec, 4.08GB/sec (avg: 3.97GB/sec), 20.52 (avg: 22.56) msec latency[RUN #1 77%, 461 secs]  4 threads:    20426275 ops,   39239 (avg:   44295) ops/sec, 3.80GB/sec (avg: 3.97GB/sec), 22.44 (avg: 22.56) msec latency[RUN #1 77%, 462 secs]  4 threads:    20454891 ops,   28608 (avg:   44261) ops/sec, 2.73GB/sec (avg: 3.97GB/sec), 29.30 (avg: 22.57) msec latency[RUN #1 77%, 463 secs]  4 threads:    20496936 ops,   42024 (avg:   44257) ops/sec, 3.90GB/sec (avg: 3.97GB/sec), 29.57 (avg: 22.59) msec latency[RUN #1 77%, 464 secs]  4 threads:    20536562 ops,   39612 (avg:   44247) ops/sec, 4.08GB/sec (avg: 3.97GB/sec), 26.06 (avg: 22.59) msec latency[RUN #1 78%, 465 secs]  4 threads:    20582311 ops,   45732 (avg:   44250) ops/sec, 4.16GB/sec (avg: 3.97GB/sec), 21.51 (avg: 22.59) msec latency[RUN #1 78%, 466 secs]  4 threads:    20628607 ops,   46281 (avg:   44254) ops/sec, 4.07GB/sec (avg: 3.97GB/sec), 21.45 (avg: 22.59) msec latency[RUN #1 78%, 467 secs]  4 threads:    20677937 ops,   49317 (avg:   44265) ops/sec, 4.08GB/sec (avg: 3.97GB/sec), 21.04 (avg: 22.58) msec latency[RUN #1 78%, 468 secs]  4 threads:    20721912 ops,   43966 (avg:   44264) ops/sec, 4.03GB/sec (avg: 3.97GB/sec), 22.46 (avg: 22.58) msec latency[RUN #1 78%, 469 secs]  4 threads:    20762790 ops,   40864 (avg:   44257) ops/sec, 3.89GB/sec (avg: 3.97GB/sec), 24.36 (avg: 22.59) msec latency[RUN #1 78%, 470 secs]  4 threads:    20805745 ops,   42944 (avg:   44254) ops/sec, 3.72GB/sec (avg: 3.97GB/sec), 23.23 (avg: 22.59) msec latency[RUN #1 79%, 471 secs]  4 threads:    20847911 ops,   42152 (avg:   44250) ops/sec, 3.86GB/sec (avg: 3.97GB/sec), 23.42 (avg: 22.59) msec latency[RUN #1 79%, 472 secs]  4 threads:    20874538 ops,   26620 (avg:   44212) ops/sec, 2.71GB/sec (avg: 3.97GB/sec), 33.03 (avg: 22.60) msec latency[RUN #1 79%, 473 secs]  4 threads:    20921740 ops,   47183 (avg:   44219) ops/sec, 4.00GB/sec (avg: 3.97GB/sec), 23.90 (avg: 22.61) msec latency[RUN #1 79%, 474 secs]  4 threads:    20968613 ops,   46858 (avg:   44224) ops/sec, 4.16GB/sec (avg: 3.97GB/sec), 21.70 (avg: 22.61) msec latency[RUN #1 79%, 475 secs]  4 threads:    21016277 ops,   47653 (avg:   44232) ops/sec, 3.94GB/sec (avg: 3.97GB/sec), 20.86 (avg: 22.60) msec latency[RUN #1 79%, 476 secs]  4 threads:    21061087 ops,   44795 (avg:   44233) ops/sec, 3.73GB/sec (avg: 3.97GB/sec), 22.31 (avg: 22.60) msec latency[RUN #1 80%, 477 secs]  4 threads:    21103797 ops,   42697 (avg:   44230) ops/sec, 3.86GB/sec (avg: 3.97GB/sec), 23.44 (avg: 22.60) msec latency[RUN #1 80%, 478 secs]  4 threads:    21140983 ops,   37174 (avg:   44215) ops/sec, 3.13GB/sec (avg: 3.96GB/sec), 22.09 (avg: 22.60) msec latency[RUN #1 80%, 479 secs]  4 threads:    21183187 ops,   42193 (avg:   44211) ops/sec, 3.99GB/sec (avg: 3.96GB/sec), 28.11 (avg: 22.61) msec latency[RUN #1 80%, 480 secs]  4 threads:    21199404 ops,   14441 (avg:   44141) ops/sec, 1.01GB/sec (avg: 3.96GB/sec), 13.23 (avg: 22.61) msec latency[RUN #1 81%, 485 secs]  4 threads:    21298900 ops,   17762 (avg:   43837) ops/sec, 1.75GB/sec (avg: 3.93GB/sec), 27.11 (avg: 22.63) msec latency[RUN #1 81%, 486 secs]  4 threads:    21340772 ops,   41858 (avg:   43833) ops/sec, 3.79GB/sec (avg: 3.93GB/sec), 114.86 (avg: 22.81) msec latency[RUN #1 81%, 487 secs]  4 threads:    21389756 ops,   48969 (avg:   43843) ops/sec, 3.97GB/sec (avg: 3.93GB/sec), 20.39 (avg: 22.80) msec latency[RUN #1 81%, 488 secs]  4 threads:    21434855 ops,   45086 (avg:   43846) ops/sec, 3.96GB/sec (avg: 3.93GB/sec), 22.37 (avg: 22.80) msec latency[RUN #1 82%, 489 secs]  4 threads:    21484717 ops,   49841 (avg:   43858) ops/sec, 4.07GB/sec (avg: 3.93GB/sec), 19.75 (avg: 22.79) msec latency[RUN #1 82%, 490 secs]  4 threads:    21526231 ops,   41503 (avg:   43853) ops/sec, 4.10GB/sec (avg: 3.93GB/sec), 24.01 (avg: 22.80) msec latency[RUN #1 82%, 491 secs]  4 threads:    21559899 ops,   33653 (avg:   43833) ops/sec, 3.45GB/sec (avg: 3.93GB/sec), 28.57 (avg: 22.81) msec latency[RUN #1 82%, 492 secs]  4 threads:    21603102 ops,   43186 (avg:   43831) ops/sec, 3.92GB/sec (avg: 3.93GB/sec), 23.92 (avg: 22.81) msec latency[RUN #1 82%, 493 secs]  4 threads:    21644907 ops,   41786 (avg:   43827) ops/sec, 3.83GB/sec (avg: 3.93GB/sec), 23.36 (avg: 22.81) msec latency[RUN #1 82%, 494 secs]  4 threads:    21683284 ops,   38368 (avg:   43816) ops/sec, 3.70GB/sec (avg: 3.93GB/sec), 25.78 (avg: 22.81) msec latency[RUN #1 83%, 495 secs]  4 threads:    21701468 ops,   18177 (avg:   43764) ops/sec, 1.36GB/sec (avg: 3.93GB/sec), 45.34 (avg: 22.83) msec latency[RUN #1 83%, 496 secs]  4 threads:    21743142 ops,   41663 (avg:   43760) ops/sec, 3.78GB/sec (avg: 3.92GB/sec), 28.40 (avg: 22.84) msec latency[RUN #1 83%, 497 secs]  4 threads:    21769755 ops,   26607 (avg:   43726) ops/sec, 1.94GB/sec (avg: 3.92GB/sec), 13.61 (avg: 22.83) msec latency[RUN #1 83%, 498 secs]  4 threads:    21791800 ops,   22039 (avg:   43682) ops/sec, 1.82GB/sec (avg: 3.92GB/sec), 74.17 (avg: 22.88) msec latency[RUN #1 83%, 499 secs]  4 threads:    21839928 ops,   48112 (avg:   43691) ops/sec, 3.58GB/sec (avg: 3.92GB/sec), 21.14 (avg: 22.88) msec latency[RUN #1 83%, 500 secs]  4 threads:    21883905 ops,   43962 (avg:   43692) ops/sec, 3.95GB/sec (avg: 3.92GB/sec), 23.09 (avg: 22.88) msec latency[RUN #1 84%, 501 secs]  4 threads:    21928098 ops,   44178 (avg:   43692) ops/sec, 3.81GB/sec (avg: 3.92GB/sec), 22.48 (avg: 22.88) msec latency[RUN #1 84%, 505 secs]  4 threads:    21977237 ops,   14842 (avg:   43503) ops/sec, 1.29GB/sec (avg: 3.90GB/sec), 22.43 (avg: 22.88) msec latency[RUN #1 85%, 507 secs]  4 threads:    21979787 ops,    1343 (avg:   43346) ops/sec, 104.62MB/sec (avg: 3.88GB/sec), 459.22 (avg: 22.93) msec latency[RUN #1 85%, 511 secs]  4 threads:    21982978 ops,     761 (avg:   42997) ops/sec, 81.76MB/sec (avg: 3.85GB/sec), 598.49 (avg: 23.01) msec latency[RUN #1 87%, 519 secs]  4 threads:    21983067 ops,      10 (avg:   42308) ops/sec, 1.44MB/sec (avg: 3.79GB/sec), 4049.07 (avg: 23.03) msec latencyserver 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+[RUN #1 90%, 541 secs]  4 threads:    21985191 ops,      96 (avg:   40585) ops/sec, 10.16MB/sec (avg: 3.64GB/sec), 8209.92 (avg: 23.82) msec latency[RUN #1 92%, 551 secs]  4 threads:    21985217 ops,       2 (avg:   39888) ops/sec, 0.11KB/sec (avg: 3.57GB/sec), 2000.56 (avg: 23.82) msec latency[RUN #1 92%, 552 secs]  4 threads:    21985246 ops,      17 (avg:   39771) ops/sec, 0.70KB/sec (avg: 3.56GB/sec), 11740.15 (avg: 23.84) msec latencyserver 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+[RUN #1 103%, 618 secs]  4 threads:    21985258 ops,       0 (avg:   35525) ops/sec, 15.51KB/sec (avg: 3.18GB/sec), 80538.66 (avg: 23.88) msec latencyserver 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7000 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+[RUN #1 103%, 618 secs]  4 threads:    21985793 ops,    5945 (avg:   35521) ops/sec, 2.93GB/sec (avg: 3.18GB/sec), 92733.80 (avg: 26.14) msec latencyserver 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+server 127.0.0.1:7001 handle error response: -CLUSTERDOWN The cluster is down
+[RUN #1 103%, 618 secs]  4 threads:    21986088 ops,    5945 (avg:   35522) ops/sec, 2.93GB/sec (avg: 3.18GB/sec), 92733.80 (avg: 27.56) msec latency[RUN #1 103%, 618 secs]  4 threads:    21986088 ops,    5945 (avg:   35522) ops/sec, 2.93GB/sec (avg: 3.18GB/sec), 92733.80 (avg: 27.56) msec latency[RUN #1 103%, 618 secs]  0 threads:    21986246 ops,    5945 (avg:   35522) ops/sec, 2.93GB/sec (avg: 3.18GB/sec), 92733.80 (avg: 28.28) msec latency
+
+4         Threads
+50        Connections per thread
+600       Seconds
+
+
+ALL STATS
+======================================================================================================================================================
+Type         Ops/sec     Hits/sec   Misses/sec    MOVED/sec      ASK/sec    Avg. Latency     p50 Latency     p99 Latency   p99.9 Latency       KB/sec 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Sets         3226.47          ---          ---         0.00         0.00       182.27827       178.17500       258.04700       397.31100   3304063.81 
+Gets        32297.02       293.08     32003.94         0.00         0.00         6.33537         5.15100        12.03100       100.35100     34807.88 
+Waits           0.00          ---          ---          ---          ---             ---             ---             ---             ---          --- 
+Totals      35523.48       293.08     32003.94         0.00         0.00        22.27110         5.37500       226.30300       264.19100   3338871.69 
+
+
+Request Latency Distribution
+Type     <= msec         Percent
+------------------------------------------------------------------------
+SET       1.623        0.000
+SET     141.311        5.000
+SET     147.455       10.000
+SET     151.551       15.000
+SET     154.623       20.000
+SET     158.719       25.000
+SET     161.791       30.000
+SET     165.887       35.000
+SET     169.983       40.000
+SET     174.079       45.000
+SET     178.175       50.000
+SET     180.223       52.500
+SET     182.271       55.000
+SET     184.319       57.500
+SET     187.391       60.000
+SET     189.439       62.500
+SET     191.487       65.000
+SET     194.559       67.500
+SET     197.631       70.000
+SET     200.703       72.500
+SET     203.775       75.000
+SET     204.799       76.250
+SET     206.847       77.500
+SET     207.871       78.750
+SET     209.919       80.000
+SET     211.967       81.250
+SET     214.015       82.500
+SET     216.063       83.750
+SET     218.111       85.000
+SET     220.159       86.250
+SET     222.207       87.500
+SET     223.231       88.125
+SET     224.255       88.750
+SET     225.279       89.375
+SET     227.327       90.000
+SET     228.351       90.625
+SET     229.375       91.250
+SET     231.423       91.875
+SET     232.447       92.500
+SET     234.495       93.125
+SET     236.543       93.750
+SET     236.543       94.062
+SET     237.567       94.375
+SET     238.591       94.688
+SET     239.615       95.000
+SET     240.639       95.312
+SET     241.663       95.625
+SET     242.687       95.938
+SET     243.711       96.250
+SET     244.735       96.562
+SET     245.759       96.875
+SET     246.783       97.031
+SET     247.807       97.188
+SET     247.807       97.344
+SET     248.831       97.500
+SET     249.855       97.656
+SET     249.855       97.812
+SET     250.879       97.969
+SET     251.903       98.125
+SET     252.927       98.281
+SET     253.951       98.438
+SET     253.951       98.516
+SET     254.975       98.594
+SET     255.999       98.672
+SET     255.999       98.750
+SET     257.023       98.828
+SET     258.047       98.906
+SET     258.047       98.984
+SET     259.071       99.062
+SET     260.095       99.141
+SET     261.119       99.219
+SET     261.119       99.258
+SET     262.143       99.297
+SET     264.191       99.336
+SET     264.191       99.375
+SET     266.239       99.414
+SET     266.239       99.453
+SET     268.287       99.492
+SET     268.287       99.531
+SET     270.335       99.570
+SET     270.335       99.609
+SET     270.335       99.629
+SET     272.383       99.648
+SET     272.383       99.668
+SET     272.383       99.688
+SET     274.431       99.707
+SET     274.431       99.727
+SET     274.431       99.746
+SET     276.479       99.766
+SET     276.479       99.785
+SET     278.527       99.805
+SET     278.527       99.814
+SET     280.575       99.824
+SET     280.575       99.834
+SET     282.623       99.844
+SET     282.623       99.854
+SET     284.671       99.863
+SET     294.911       99.873
+SET     317.439       99.883
+SET     350.207       99.893
+SET     407.551       99.902
+SET     421.887       99.907
+SET     444.415       99.912
+SET     452.607       99.917
+SET     466.943       99.922
+SET     481.279       99.927
+SET     507.903       99.932
+SET     520.191       99.937
+SET     524.287       99.941
+SET     536.575       99.946
+SET     557.055       99.951
+SET     573.439       99.954
+SET     598.015       99.956
+SET     626.687       99.958
+SET     651.263       99.961
+SET     770.047       99.963
+SET     815.103       99.966
+SET     856.063       99.968
+SET     864.255       99.971
+SET     884.735       99.973
+SET     925.695       99.976
+SET     933.887       99.977
+SET     933.887       99.978
+SET     937.983       99.979
+SET     946.175       99.980
+SET     954.367       99.982
+SET     962.559       99.983
+SET     974.847       99.984
+SET     983.039       99.985
+SET     987.135       99.987
+SET     995.327       99.988
+SET     995.327       99.988
+SET     999.423       99.989
+SET     999.423       99.990
+SET    1003.519       99.990
+SET    1007.615       99.991
+SET    1007.615       99.991
+SET    1011.711       99.992
+SET    1011.711       99.993
+SET    1019.903       99.993
+SET    1019.903       99.994
+SET    1023.999       99.994
+SET    1023.999       99.995
+SET    1023.999       99.995
+SET    1023.999       99.995
+SET    1023.999       99.995
+SET    1023.999       99.996
+SET    1023.999       99.996
+SET    1023.999       99.996
+SET    1028.095       99.997
+SET    1028.095       99.997
+SET    1028.095       99.997
+SET    1028.095       99.997
+SET    1028.095       99.997
+SET    1028.095       99.998
+SET    1028.095       99.998
+SET    1028.095       99.998
+SET    1028.095       99.998
+SET    1032.191       99.998
+SET    1032.191       99.998
+SET    1032.191       99.998
+SET    1032.191       99.999
+SET    1032.191       99.999
+SET    1032.191       99.999
+SET    1032.191       99.999
+SET    1032.191       99.999
+SET    1032.191       99.999
+SET    1036.287       99.999
+SET    1036.287       99.999
+SET    1040.383       99.999
+SET    1040.383       99.999
+SET    1044.479       99.999
+SET    1044.479       99.999
+SET    1044.479       99.999
+SET    1044.479       99.999
+SET    1044.479       99.999
+SET    1044.479       99.999
+SET    1044.479      100.000
+SET    1044.479      100.000
+SET    1048.575      100.000
+SET    1048.575      100.000
+---
+GET       0.023        0.000
+GET       3.727        5.000
+GET       3.935       10.000
+GET       4.095       15.000
+GET       4.255       20.000
+GET       4.383       25.000
+GET       4.511       30.000
+GET       4.639       35.000
+GET       4.799       40.000
+GET       4.959       45.000
+GET       5.151       50.000
+GET       5.247       52.500
+GET       5.375       55.000
+GET       5.503       57.500
+GET       5.663       60.000
+GET       5.855       62.500
+GET       6.047       65.000
+GET       6.239       67.500
+GET       6.431       70.000
+GET       6.623       72.500
+GET       6.783       75.000
+GET       6.847       76.250
+GET       6.943       77.500
+GET       7.007       78.750
+GET       7.071       80.000
+GET       7.167       81.250
+GET       7.231       82.500
+GET       7.327       83.750
+GET       7.423       85.000
+GET       7.487       86.250
+GET       7.583       87.500
+GET       7.647       88.125
+GET       7.679       88.750
+GET       7.743       89.375
+GET       7.807       90.000
+GET       7.871       90.625
+GET       7.935       91.250
+GET       7.999       91.875
+GET       8.063       92.500
+GET       8.159       93.125
+GET       8.255       93.750
+GET       8.319       94.062
+GET       8.383       94.375
+GET       8.447       94.688
+GET       8.511       95.000
+GET       8.575       95.312
+GET       8.639       95.625
+GET       8.703       95.938
+GET       8.831       96.250
+GET       8.895       96.562
+GET       9.023       96.875
+GET       9.087       97.031
+GET       9.215       97.188
+GET       9.279       97.344
+GET       9.343       97.500
+GET       9.471       97.656
+GET       9.599       97.812
+GET       9.727       97.969
+GET       9.919       98.125
+GET      10.111       98.281
+GET      10.367       98.438
+GET      10.495       98.516
+GET      10.623       98.594
+GET      10.815       98.672
+GET      11.007       98.750
+GET      11.263       98.828
+GET      11.583       98.906
+GET      11.967       98.984
+GET      12.479       99.062
+GET      13.247       99.141
+GET      14.655       99.219
+GET      15.871       99.258
+GET      17.663       99.297
+GET      21.759       99.336
+GET      50.687       99.375
+GET      58.111       99.414
+GET      60.671       99.453
+GET      62.719       99.492
+GET      64.767       99.531
+GET      67.071       99.570
+GET      69.119       99.609
+GET      70.655       99.629
+GET      71.679       99.648
+GET      73.215       99.668
+GET      74.751       99.688
+GET      76.287       99.707
+GET      77.823       99.727
+GET      79.871       99.746
+GET      81.919       99.766
+GET      83.967       99.785
+GET      86.527       99.805
+GET      87.551       99.814
+GET      89.087       99.824
+GET      90.111       99.834
+GET      91.647       99.844
+GET      93.183       99.854
+GET      94.719       99.863
+GET      96.255       99.873
+GET      97.791       99.883
+GET      99.327       99.893
+GET     100.863       99.902
+GET     101.887       99.907
+GET     102.399       99.912
+GET     103.423       99.917
+GET     104.447       99.922
+GET     105.471       99.927
+GET     107.007       99.932
+GET     108.543       99.937
+GET     111.103       99.941
+GET     116.735       99.946
+GET     440.319       99.951
+GET     561.151       99.954
+GET     589.823       99.956
+GET     606.207       99.958
+GET     618.495       99.961
+GET     626.687       99.963
+GET     638.975       99.966
+GET     655.359       99.968
+GET     667.647       99.971
+GET     675.839       99.973
+GET     688.127       99.976
+GET     692.223       99.977
+GET     696.319       99.978
+GET     700.415       99.979
+GET     704.511       99.980
+GET     712.703       99.982
+GET     716.799       99.983
+GET     724.991       99.984
+GET     729.087       99.985
+GET     737.279       99.987
+GET     745.471       99.988
+GET     749.567       99.988
+GET     753.663       99.989
+GET     757.759       99.990
+GET     757.759       99.990
+GET     761.855       99.991
+GET     765.951       99.991
+GET     770.047       99.992
+GET     774.143       99.993
+GET     778.239       99.993
+GET     786.431       99.994
+GET     790.527       99.994
+GET     790.527       99.995
+GET     794.623       99.995
+GET     798.719       99.995
+GET     806.911       99.995
+GET     811.007       99.996
+GET     819.199       99.996
+GET     823.295       99.996
+GET     831.487       99.997
+GET     839.679       99.997
+GET     839.679       99.997
+GET     843.775       99.997
+GET     847.871       99.997
+GET     856.063       99.998
+GET     860.159       99.998
+GET     864.255       99.998
+GET     872.447       99.998
+GET     880.639       99.998
+GET     884.735       99.998
+GET     905.215       99.998
+GET     913.407       99.999
+GET     921.599       99.999
+GET     937.983       99.999
+GET     942.079       99.999
+GET     974.847       99.999
+GET     978.943       99.999
+GET     999.423       99.999
+GET    1007.615       99.999
+GET    1011.711       99.999
+GET    1011.711       99.999
+GET    1011.711       99.999
+GET    1015.807       99.999
+GET    1015.807       99.999
+GET    1015.807       99.999
+GET    1015.807       99.999
+GET    1015.807       99.999
+GET    1015.807      100.000
+GET    1015.807      100.000
+GET    1019.903      100.000
+GET    1023.999      100.000
+GET    1023.999      100.000
+GET    1023.999      100.000
+GET    1028.095      100.000
+GET    1028.095      100.000
+GET    1028.095      100.000
+GET    1032.191      100.000
+GET    1032.191      100.000
+GET    1032.191      100.000
+GET    1032.191      100.000
+GET    1036.287      100.000
+GET    1036.287      100.000
+GET    1036.287      100.000
+GET    1036.287      100.000
+GET    1036.287      100.000
+GET    1036.287      100.000
+GET    1036.287      100.000
+GET    1036.287      100.000
+GET    1036.287      100.000
+GET    1036.287      100.000
+GET    1036.287      100.000
+GET    1036.287      100.000
+GET    1036.287      100.000
+GET    1036.287      100.000
+GET    1036.287      100.000
+GET    1036.287      100.000
+GET    1036.287      100.000
+GET    1036.287      100.000
+GET    1036.287      100.000
+GET    1040.383      100.000
+GET    1040.383      100.000
+GET    1040.383      100.000
+GET    1040.383      100.000
+GET    1040.383      100.000
+GET    1040.383      100.000
+GET    1040.383      100.000
+GET    1040.383      100.000
+GET    1040.383      100.000
+GET    1040.383      100.000
+GET    1040.383      100.000
+GET    1040.383      100.000
+GET    1040.383      100.000
+GET    1040.383      100.000
+GET    1040.383      100.000
+GET    1040.383      100.000
+GET    1040.383      100.000
+GET    1040.383      100.000
+GET    1040.383      100.000
+GET    1040.383      100.000
+GET    1040.383      100.000
+GET    1040.383      100.000
+GET    1040.383      100.000
+GET    1040.383      100.000
+GET    1040.383      100.000
+GET    1044.479      100.000
+GET    1044.479      100.000
+GET    1044.479      100.000
+GET    1044.479      100.000
+GET    1044.479      100.000
+GET    1044.479      100.000
+GET    1044.479      100.000
+GET    1044.479      100.000
+GET    1044.479      100.000
+GET    1044.479      100.000
+GET    1048.575      100.000
+GET    1048.575      100.000
+---
+WAIT      0.000      100.000
